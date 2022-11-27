@@ -1,0 +1,40 @@
+Title: About
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"web","image":[],"src":"https:\/\/images.squarespace-cdn.com\/content\/v1\/5f1870a7802d83158d2c2992\/1612465508201-A16E0PBX6109YCP3RYL0\/vanoortbusinessweb-02.jpg?format=1000w","alt":"vanoortbusinessweb-02.jpg","caption":"","link":"","ratio":"","crop":"false"},"id":"9bb49bd4-7653-46d6-9a36-b39a1c568d68","isHidden":false,"type":"image"}],"id":"d33ca1fe-ba51-4af0-bd3c-c3aefed1ae97","width":"1\/1"}],"id":"d34c0490-20b0-43bd-ac79-e79f8d760e80"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"about"},"id":"dbef763a-2a53-4e51-80a7-04c0a1ebc897","isHidden":false,"type":"heading"},{"content":{"text":"<p>Continuing the family business in design and retail, <strong>Vanoort Studio<\/strong> draws on the upbringing of two different cultural backgrounds; The western and utilitarian motifs of Texas and the responsible, forward-looking characteristics of the Dutch.\u00a0<\/p><p>Through deliberate and mindful construction, modern silhouettes interweave nostalgia and surrealism for one-of-a-kind garments with a sense of purpose. Intermixing history and unapologetically drawing on inspiration, Vanoort aims to create new with what already exists. all pieces are hand made in New York. Starting in 2018, Vanoort studio is a spaghetti western in the making.\u00a0\u00a0<\/p>"},"id":"98b70f61-81d6-4774-b9dc-9c9502a12587","isHidden":false,"type":"text"}],"id":"cca87bd9-28f9-4b90-84de-6502ec2e9688","width":"1\/3"},{"blocks":[{"content":{"level":"h2","text":"history"},"id":"926b4a14-0b89-4c4e-86fd-e3db69dbc855","isHidden":false,"type":"heading"},{"content":{"text":"<p>the Vanoort\u2019s history in design and retail starts 4 generations ago. The family owned a tobacco store during the 2nd\u00a0world war and decided to switch to furniture in the 1950\u2019s during the economic recovery in Holland after the war. the store did well creating high end furniture and interior decoration.\u00a0<\/p><p>The store was located at 8 Hugo de Grootplein in Amsterdam. The purple-burgundy-orange color scheme and the store became widely recognized and won prizes for their designs. The biggest selling furniture item they ever had was a red leather couch that came from a manufacturer in Germany \u2013 they sold dozens of these and made a small fortune with it. The van Oort family\u00a0lived in the apartments above the store. Due to the success of the store, They continued to live there until 1972<\/p><p>In 1996 they decided to close the store and rent out the space. It was always a furniture store, but they made additional income through installing carpets and refurbishing old furniture.\u00a0<\/p><p>2 generations later the Vanoort family finds itself in the heart of Texas while maintaining their dutch values and traditions.\u00a0This dichotomy drives the revival of the Vanoort business, paying respects to its original roots while showing pride of the family\u2019s progress.\u00a0<\/p>"},"id":"351f4991-5d5a-4e87-87a4-c3a019c38d3f","isHidden":false,"type":"text"}],"id":"162ff072-cdee-41fd-adb9-b688aa53e9bd","width":"1\/3"},{"blocks":[],"id":"503ba624-ece4-4e1c-81d7-f5ad7924e546","width":"1\/3"}],"id":"23cbf9df-075d-4a14-a1ea-8d19c0eb47f7"}]
+
+----
+
+Address: Mægazine Inc. <br>Sesamestreet 1 <br>Gotham City <br>USA
+
+----
+
+Email: mail@maegazine.com
+
+----
+
+Phone: +49 1234 5678
+
+----
+
+Social:
+
+- 
+  platform: Twitter
+  url: https://twitter.com/getkirby
+- 
+  platform: Instagram
+  url: https://instagram.com/getkirby
+- 
+  platform: Discord
+  url: https://chat.getkirby.com
+
+----
+
+Contact:
+
+Kirby Magazine Inc.
+Sesamestreet 1
+Gotham City
+USA

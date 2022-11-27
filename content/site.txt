@@ -1,0 +1,26 @@
+Title: Van Oort Studio
+
+----
+
+Top-logo: - logo-main.svg
+
+----
+
+Footer-logo: - logo-floral.svg
+
+----
+
+Interactive-cover:
+
+- test-1.jpg
+- test-2.jpg
+- test-3.jpg
+- test-6.jpg
+- test-4.jpg
+- test-5.jpg
+- test-8.jpg
+- test-7.jpg
+
+----
+
+Summary: <ol><li>100% pre-shrunk cotton&nbsp;</li><li>Boxy fit&nbsp;</li><li>Vintage Parisian Tea towel&nbsp;</li><li>Rib knit crew neck&nbsp;</li><li>Short Sleeve.&nbsp;</li><li>Made in NY</li></ol>

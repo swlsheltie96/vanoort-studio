@@ -1,0 +1,37 @@
+<?php $j = 0;
+
+?>
+<?php foreach (page('vo-products')->children()->filterBy('tags', 'Bottoms') as $project) :  $j++; ?>
+
+    <div class="product" id="menuitem-<?= $project->uid() ?>">
+        <a href="<?= $project->url() ?>">
+            <div class="product-number">
+                <p><?= $j ?>/<?= (page('vo-products')->children()->filterBy('tags', 'Bottoms')->count()) ?></p>
+            </div>
+            <div class="product-hed">
+                <p class="product-title"><?= $project->title()->html() ?></p>
+                <p class="product-price"><?= $project->price()->html() ?></p>
+            </div>
+        </a>
+        <div class="product-summary"><?= $project->summary() ?></div>
+    </div>
+<?php endforeach ?>
+
+<?php $k = 0;
+
+?>
+<?php foreach (page('vo-products')->children()->filterBy('tags', 'Home and Accessories') as $project) : $k++;  ?>
+
+    <div class="product" id="menuitem-<?=$project->uid() ?>">
+        <a href="<?= $project->url() ?>">
+            <div class="product-number">
+                <p><?= $k ?>/<?= (page('vo-products')->children()->filterBy('tags', 'Home and Accessories')->count()) ?></p>
+            </div>
+            <div class="product-hed">
+                <p class="product-title"><?= $project->title()->html() ?></p>
+                <p class="product-price"><?= $project->price()->html() ?></p>
+            </div>
+        </a>
+        <div class="product-summary"><?= $project->summary() ?></div>
+    </div>
+<?php endforeach ?>

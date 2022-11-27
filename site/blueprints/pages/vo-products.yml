@@ -1,0 +1,42 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Products
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: 🖼
+
+# Here we extend two sections which are defined in `/site/blueprints/sections/albums.yml`
+# They differ in their page status and the headline.
+sections:
+
+  filtering: 
+    type: fields
+    fields:
+      tags: true
+        label: Categories (Add/change categories here--these options show up on each individual product editing page)
+        type: tags
+  # listed:
+  #   extends: sections/vo-products
+  #   label: Published Products
+  #   status: listed
+  # info: 
+  #     label: Side Menu 
+  #     type: info
+  #     text: "Put side menu filtering options here. These tags will show up as the side menu on the "Products" page. "All" automatically shows up."
+  
+  tops: 
+    label: Tops
+    type: pages
+    label: Van Oort Products
+    parent: site.find("vo-products")
+    size: small
+    info: "Price: {{ page.price }}  | Category: {{ page.tags }} "
+    layout: list
+    template: vo-detail
+    empty: No products yet
+    image:
+      cover: true
+      ratio: 5/4
+  drafts:
+    extends: sections/vo-products
+    label: Drafts
+    status: draft

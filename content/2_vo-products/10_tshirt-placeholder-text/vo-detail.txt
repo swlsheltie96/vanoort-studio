@@ -1,0 +1,57 @@
+Title: FRENCH FROMAGE TSHIRT
+
+----
+
+Cover: - t-shirt.jpeg
+
+----
+
+Thumbnail: 
+
+----
+
+Headline: FRENCH FROMAGE TSHIRT
+
+----
+
+Price: 45
+
+----
+
+Summary: <ol><li>100% pre-shrunk cotton&nbsp;</li><li>Boxy fit&nbsp;</li><li>Vintage Parisian Tea towel&nbsp;</li><li>Rib knit crew neck&nbsp;</li><li>Short Sleeve</li></ol>
+
+----
+
+Text: 
+
+----
+
+Tags: Tops
+
+----
+
+Main: 
+
+----
+
+Productname: FRENCH FROMAGE TSHIRT
+
+----
+
+Productid: FRENCH FROMAGE TSHIRT
+
+----
+
+Productprice: 100
+
+----
+
+Productdescription: lorem ipsum
+
+----
+
+Productimage: - t-shirt.jpeg
+
+----
+
+Categories: Tops

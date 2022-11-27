@@ -1,0 +1,106 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Detail
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: 🖼
+
+# Page status can be limited, here to `draft` and `listed`.
+# More about page status: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
+status:
+  draft: true
+  listed: true
+
+# Define the form layout with two columns
+# Columns are optional but help structure the form layout
+# The first column defines an files section, the second a set of fields
+# More about different types of sections: https://getkirby.com/docs/reference/panel/sections
+# More about columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
+
+columns:
+  - width: 1/3
+    # The first column contains a set of fields to store
+    # information about the album.
+    #
+    # List of all available field types:
+    # https://getkirby.com/docs/reference/panel/fields
+    fields:
+      #e If you need the same field in multiple locations, you can define them once and reuse whereever needed.
+      # Here we use a files field defined in `/site/blueprints/field/cover.yml`
+      cover: fields/cover
+      thumbnail: fields/cover
+      headline:
+        type: text
+        placeholder: "{{ page.title }}"
+      price:
+        label: Price
+        type: number
+        placeholder: 0
+      summary:
+        label: Menu Summary
+        type: list
+      text:
+        label: Description
+        type: blocks
+        fieldsets:
+          - text
+      tags: 
+        label: Category
+        type: multiselect
+        options: query
+        query: site.find("vo-products").tags.split
+          
+
+          
+
+  - width: 2/3
+    sections:
+      # The `images` files section shows all images of
+      # the current page that use the `image` template
+      info: 
+        label: How to Add Images
+        type: info
+        text: |
+          Add images in the "All images" section
+
+          Images for top sequence need to begin with "sequence" in the file name
+
+          All other images will show up in "Additional Images"
+      # sequence-images:
+      #   label: Top Sequence
+      #   type: filesdisplay
+      #   query: page.files.filterBy('filename', '^=', 'sequence')
+      #   layout: list
+      #   image:
+      #     cover: true
+      #   min: 1
+      image-select:
+        type: fields
+        fields: 
+          # thumbnail: 
+          #   label: Thumbnail (Shows up on hover - desktop only) 
+          #   type: files
+          #   multiple: false
+          #   query: page.images
+          main: 
+            label: Main product image (Shows up on scroll)
+            type: files
+            multiple: false
+            query: page.images
+      # additional-images:
+      #   label: Additional Product Images
+      #   type: filesdisplay
+      #   layout: cards
+      #   query: page.files.filterBy('filename', '!^=', 'sequence')
+      images: 
+        label: All Images
+        type: files
+        layout: list
+        limit: 5
+      recirc: 
+        label: Related Items
+        type: pages
+      productdata:
+        extends: sections/vo-products
+        type: fields
+        fields:
+          productinfo: cart/product

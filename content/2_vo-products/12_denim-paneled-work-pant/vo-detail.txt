@@ -1,0 +1,57 @@
+Title: DENIM PANELED WORK PANT
+
+----
+
+Cover: - pants.jpg
+
+----
+
+Thumbnail: 
+
+----
+
+Headline: DENIM PANELED WORK PANT
+
+----
+
+Price: 145
+
+----
+
+Summary: <ol><li>100% denim&nbsp;</li><li>Straight Leg Loose fit&nbsp;</li><li>4-pocket&nbsp;</li><li>Paneled with label detailing&nbsp;</li><li>Zip Fly / button closure&nbsp;</li><li>Dry clean only</li></ol>
+
+----
+
+Text: 
+
+----
+
+Tags: Bottoms
+
+----
+
+Main: 
+
+----
+
+Productname: xxx
+
+----
+
+Productid: xxx
+
+----
+
+Productprice: 100
+
+----
+
+Productdescription: lorem ipsum
+
+----
+
+Productimage: - pants.jpg
+
+----
+
+Categories: Bottoms

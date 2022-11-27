@@ -1,0 +1,17 @@
+{
+  "name": "vanoort-studio",
+  "version": "1.0.0",
+  "description": "<img src=\"http://getkirby.com/assets/images/github/starterkit.jpg\" width=\"300\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/scss -o assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "matter-js": "^0.18.0",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {}
+}

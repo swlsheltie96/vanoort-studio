@@ -1,0 +1,57 @@
+Title: VANOORT ‘H’ BRALETTE
+
+----
+
+Cover: - t-shirt.jpeg
+
+----
+
+Thumbnail: - thumbnail.jpeg
+
+----
+
+Headline: VANOORT ‘H’ BRALETTE
+
+----
+
+Price: 235
+
+----
+
+Summary: <ol><li>Rear hook-and-eye fastening</li><li>Fits true to size</li><li>Straight Hem</li><li>100% Cotton&nbsp;</li></ol>
+
+----
+
+Text: [{"content":{"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat odio vel odio vestibulum posuere. Vivamus vehicula turpis et blandit semper. Duis sit amet viverra quam.<\/p>"},"id":"513c7a24-37c7-48e8-a4c3-440dcfdd4eab","isHidden":false,"type":"text"},{"content":{"text":"<p>Loose fit t-shirt with subtle photographs stitched into front right panel. <br><br>Made in NYC.<\/p>"},"id":"81549830-603f-420c-9714-62075d05facc","isHidden":false,"type":"text"},{"content":{"text":"<p>This item is made to order. Will take 2-3 weeks to ship.<\/p>"},"id":"1835b3ba-5dd2-48c8-9d91-57bd672d53a1","isHidden":false,"type":"text"}]
+
+----
+
+Tags: Tops
+
+----
+
+Main: - t-shirt.jpeg
+
+----
+
+Productname: VANOORT ‘H’ BRALETTE
+
+----
+
+Productid: vanoort-h-bralette
+
+----
+
+Productprice: 355
+
+----
+
+Productdescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat odio vel odio vestibulum posuere. Vivamus vehicula turpis et blandit semper. Duis sit amet viverra quam.
+
+----
+
+Productimage: - thumbnail.jpeg
+
+----
+
+Categories: Tops
