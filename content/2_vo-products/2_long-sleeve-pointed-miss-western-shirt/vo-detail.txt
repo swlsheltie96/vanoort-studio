@@ -2,15 +2,15 @@ Title: LONG SLEEVE POINTED MISS WESTERN SHIRT
 
 ----
 
-Cover: - t-shirt.jpeg
+Cover: - file://sfbEWNqenCTgDFPu
 
 ----
 
-Thumbnail: - thumbnail.jpg
+Thumbnail: - file://raKUxD5NQsCECX6K
 
 ----
 
-Headline: LONG SLEEVE POINTED MISS WESTERN SHIRT
+Productid: long-sleeve-pointed-miss-western-shirt
 
 ----
 
@@ -30,6 +30,18 @@ Tags: Tops
 
 ----
 
+Videotoggle: true
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/5KwO156QeY94hufc"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"083b59d9-a721-4eda-b0dd-0539abb190bb","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/uK3wVOTH8Yy7sUms","file:\/\/jtOKeQ76EyQRgdDz"],"caption":"","ratio":"","crop":"false"},"id":"0e0e5fd8-a610-4ba9-be9c-fac36ac7161b","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/BBnIWcCniTzwyICA"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"d92c260c-4042-46dd-942c-40497df86a0f","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/sfbEWNqenCTgDFPu","file:\/\/kn6gJynrZvqSGDTB"],"caption":"","ratio":"","crop":"false"},"id":"368adb83-0434-4781-ba87-a2b8f17d26d5","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/8RFxllfwvew8E8w4"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"5934a3da-90fb-4a1f-97cf-2f49b77a609e","isHidden":false,"type":"image"}]
+
+----
+
+Headline: LONG SLEEVE POINTED MISS WESTERN SHIRT
+
+----
+
 Main: 
 
 ----
@@ -39,3 +51,7 @@ Categories: Tops
 ----
 
 Subheadline: 
+
+----
+
+Uuid: D83jBe5RTpKFjOlj

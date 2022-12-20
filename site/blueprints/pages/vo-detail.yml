@@ -28,13 +28,21 @@ columns:
       # Here we use a files field defined in `/site/blueprints/field/cover.yml`
       cover: fields/cover
       thumbnail: fields/cover
-      headline:
-        type: text
-        placeholder: "{{ page.title }}"
+      productID:
+        label: Product ID
+        placeholder: "Needs to be same as URL Appendix"
+        sync: headline
+        type: slug
+        required: true
+        wizard:
+          field: headline
+          text: Generate!
       price:
         label: Price
         type: number
         placeholder: 0
+        required: true
+        step: .01
       summary:
         label: Menu Summary
         type: list
@@ -73,34 +81,34 @@ columns:
       #   image:
       #     cover: true
       #   min: 1
-      image-select:
+      video: 
         type: fields
-        fields: 
-          # thumbnail: 
-          #   label: Thumbnail (Shows up on hover - desktop only) 
-          #   type: files
-          #   multiple: false
-          #   query: page.images
-          main: 
-            label: Main product image (Shows up on scroll)
-            type: files
-            multiple: false
-            query: page.images
-      # additional-images:
-      #   label: Additional Product Images
-      #   type: filesdisplay
-      #   layout: cards
-      #   query: page.files.filterBy('filename', '!^=', 'sequence')
-      images: 
-        label: All Images
+        fields:   
+          videotoggle: 
+            type: toggle
+            label: Video Topper
+      videos: 
+        label: Video
         type: files
-        layout: list
-        limit: 5
+        template: video
+        layout: cards
+        headline: videotopper
+      content: 
+        type: fields
+        fields:   
+          imgs: 
+            type: blocks
+            label: Product Images
+            fieldsets:
+              - image
+              - gallery
       recirc: 
         label: Related Items
         type: pages
-      productdata:
-        extends: sections/vo-products
-        type: fields
-        fields:
-          productinfo: cart/product
+      files: 
+        label: All Images
+        template: image
+        type: files
+        layout: list
+        limit: 15
+        

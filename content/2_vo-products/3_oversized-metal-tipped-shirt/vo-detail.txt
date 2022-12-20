@@ -2,15 +2,15 @@ Title: OVERSIZED METAL TIPPED  SHIRT
 
 ----
 
-Cover: - t-shirt.jpeg
+Cover: - file://gruyi2OoGvNdDXTo
 
 ----
 
-Thumbnail: 
+Thumbnail: - file://DK4R4IXgZROUJZOA
 
 ----
 
-Headline: OVERSIZED METAL TIPPED  SHIRT
+Productid: oversized-metal-tipped-shirt
 
 ----
 
@@ -30,8 +30,24 @@ Tags: Tops
 
 ----
 
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/NLEtd9HQgrhs238J"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4c1967a3-3e49-4c2f-9010-d1bb2811289e","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/H0RpdZgsdyT3TreQ","file:\/\/gruyi2OoGvNdDXTo"],"caption":"","ratio":"","crop":"false"},"id":"1727ade9-133d-4c74-9bf0-347ad2bbcdae","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/wBYqhkJD1l8Im8Ju"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"d2e83969-e185-47ad-9777-6336364f69ca","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/aMgUhPrXqo4ZusOK"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"44439bcb-c964-4ade-ad87-33abccf54f95","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/cQYPqI8kfsTE6CjQ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1aa4148b-e2ea-4e18-8980-a6465f57c61d","isHidden":false,"type":"image"}]
+
+----
+
+Headline: OVERSIZED METAL TIPPED  SHIRT
+
+----
+
 Main: 
 
 ----
 
 Categories: Tops
+
+----
+
+Uuid: 1YIX3aIgXUWdYXKb

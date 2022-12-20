@@ -1,8 +1,32 @@
 console.log("vo-home");
+var taglist =["Tops", "Bottoms", "Accessories"]
+var productlabels = {}
+//---------------------------------------------------------------------------------------------------------------------//
+//---------------------------------------------------------------------------------------------------------------------//
+//---------------------------------------------------------------------------------------------------------------------//
+var lastKnownScrollPosition = 0;
+var ticking = false;
 
-//---------------------------------------------------------------------------------------------------------------------//
-//---------------------------------------------------------------------------------------------------------------------//
-//---------------------------------------------------------------------------------------------------------------------//
+function doSomething(scrollPos) {
+  var scroll = window.scrollY || window.scrollTop || document.getElementsByTagName("html")[0].scrollTop;
+  // scroll = scroll - 2*window.innerHeight
+  document.documentElement.style.setProperty('--scroll-var', scroll + "px");
+}
+
+document.addEventListener("scroll", (event) => {
+  lastKnownScrollPosition = window.scrollY || window.scrollTop || document.getElementsByTagName("html")[0].scrollTop;
+
+  if (!ticking) {
+    window.requestAnimationFrame(() => {
+      doSomething(lastKnownScrollPosition);
+      ticking = false;
+    });
+
+    ticking = true;
+  }
+});
+
+
 window.addEventListener("load", (event) => {
   //COVER
   let interactive_cover = document.querySelector(".interactive-cover-canvas");
@@ -24,13 +48,16 @@ window.addEventListener("load", (event) => {
 
   let cur_height_total = 0;
   let cur_col = 0;
+  let cur_col_count =0;
   let setup_class 
+  let setup_class_num;
+
 
 
   // //SET BODY HEIGHT OF ORIGINAL AND CLONE MENU -------------------------------------------------------------------------------------//
-  // let mastheadheight = masthead.offsetHeight;
+  let mastheadheight = masthead.offsetHeight;
   // setbodyheight(mastheadheight)
-  // // console.log("boo")
+  console.log(mastheadheight)
 
   //INITIALIZE CANVAS-------------------------------------------------------------------------------------//
   let int_cover_canv = new jsCanvas(interactive_cover);
@@ -46,26 +73,6 @@ window.addEventListener("load", (event) => {
   }
 
 
-  //THUMBNAIL HOVER EVENT LISTENER -------------------------------------------------------------------------------------//
-  // let thumbnailimages = thumbnail.querySelectorAll("img")
-  // console.log(thumbnailimages)
-  // let menuitems = menu.querySelectorAll(".product")
-  // menuitems.forEach((item)=>{
-  //   let curid = item.id
-  //   let realid = curid.slice(9)
-  //   // console.log(item, realid)
-  //   if (document.querySelector("#thumbnail-"+realid)) {
-  //     let thumb= document.querySelector("#thumbnail-"+realid)
-  //     item.addEventListener("mouseover", (e)=>{
-  //       console.log("mouseddd")
-  //       thumb.classList.add("on")
-  //     })
-  //     item.addEventListener("mouseout", (e)=>{
-  //       thumb.classList.remove("on")
-  //     })
-  //   }
-
-  //   })
 
   
   
@@ -74,12 +81,25 @@ window.addEventListener("load", (event) => {
   const io = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       let id = entry.target.id;
-      let idslice = id.slice(12) //"productlink-"
+      let idslice = id.slice(12) //"productlink-  "
       let menu_product = document.querySelector("#cloned-menuitem-"+ idslice);
+      // let menu_product_bounds = menu_product.getBoundingClientRect()
+      // let entry_bounds = entry.target.getBoundingClientRect();
+      // console.log(id, menu_product, menu_product_bounds)
+      // console.log(entry.intersectionRect, entry.rootBounds)
+      // console.log(menu_product)
       if (entry.isIntersecting) {
-        menu_product.style.opacity = 1;
+        // menu_product.style.opacity = 1;
+        // productlabels[idslice]  = "true"
+        // whileIntersecting(entry.target, idslice, menu_product)
+        // console.log(menu_product)
+        // menu_product.style.display = "flex"
+        // menu_product.style.zIndex = 2
       } else {
-        menu_product.style.opacity = 0;
+        // productlabels[idslice] = "false"
+        // whileIntersecting(entry.target, idslice, menu_product)
+        // menu_product.style.display = "none" //TOO SLOW, NEED TO INCRASE ROOT MARGINE.... 
+        // menu_product.style.zIndex=0
       }
     });
   });
@@ -89,44 +109,143 @@ window.addEventListener("load", (event) => {
 
 
   // //MOVE PRODUCTS INTO COLUMNS -------------------------------------------------------------------------------------//
-  // for (let i = 0; i < products.length; i++) {
-  //   let product = products[i];
-  //   if (i==0) {
-  //     setup_class = product.classList[1]
-  //   }
-  //   let cur_class = product.classList[1] //SET IN VO-MAINMENU, TAG NAME IS ALWAYS SECOND IN CLASS LIST 
-  //   let productheight = product.getBoundingClientRect().height
+  for (let i = 0; i < products.length; i++) {
+    let product = products[i];
+    // let cur_class //SET IN VO-MAINMENU, TAG NAME IS ALWAYS SECOND IN CLASS LIST 
+    let productheight = product.getBoundingClientRect().height
+    // console.log(setup_class)
+    // console.log(i+1, product.clientHeight, cur_height_total)
+    //|| 
 
-  //   console.log(i+1, product.clientHeight, cur_height_total)
 
-  //   if (cur_height_total >= window.innerHeight - mastheadheight || setup_class != cur_class) {
-  //       console.log("next col")
-  //       setup_class = cur_class
-  //       cur_col++;
-  //       cur_height_total = 0;
-  //   }
+    cur_height_total += productheight + (0.25 *16); //0.5REM MARGIN BOTTOM
+    // console.log(cur_height_total, i, products[i])
+    if (i==0) {
+      setup_class = product.classList[1]
+      setup_class_num=0
+    }
 
-  //   cols[cur_col].appendChild(product);
-  //   cur_height_total += productheight;
 
-  // }
+    if (cur_height_total >= window.innerHeight - mastheadheight ) {
+        console.log("next col",  window.innerHeight - mastheadheight)
+        cur_col++;
+        cur_col_count=1
+        cur_height_total = productheight  + (0.25 *16); //0.5REM MARGIN BOTTOM;
+
+    }
+    console.log(setup_class, product.classList[1])
+    if (i==0 || product.classList[1] != setup_class) {
+      let col_hed = taglist[setup_class_num]
+      let hed_div = document.createElement("div")
+      let hed_p = document.createElement("h6")
+      let hed_content = document.createTextNode(col_hed);
+      hed_p.appendChild(hed_content)
+      hed_div.appendChild(hed_p)
+      console.log(i, setup_class)
+      cols[cur_col].appendChild(hed_div);
+      // 
+      hed_div.classList.add("menu-hed")
+      if (i==0 || cur_col_count==1 ){
+        hed_div.classList.add("top")
+        cur_height_total += 1.5* 16 //1 REM = 16
+      } else {
+        cur_height_total += 2.5* 16 //1 REM = 16
+      }
+      if ( product.classList[1] != setup_class) {
+        setup_class = product.classList[1]
+
+      }
+      setup_class_num++
+
+      
+    }
+    cols[cur_col].appendChild(product);
+    cur_col_count ++ 
+  }
+  precontainer.remove();
+  //THUMBNAIL HOVER EVENT LISTENER -------------------------------------------------------------------------------------//
+  let menuitems = menu.querySelectorAll(".product")
+  // console.log(menu,menuitems)
+  menuitems.forEach((item)=>{
+    let curid = item.id
+    let realid = curid.slice(9)
+    // console.log(item, realid)
+    if (document.querySelector("#thumbnail-"+realid)) {
+      let thumb= document.querySelector("#thumbnail-"+realid)
+      item.addEventListener("mouseover", (e)=>{
+        console.log("mouseddd")
+        thumb.classList.add("on")
+      })
+      item.addEventListener("mouseout", (e)=>{
+        thumb.classList.remove("on")
+      })
+    }
+
+    })
 
   //CLONE MENU AND MOVE THUMBNAIL DIV-------------------------------------------------------------------------------------//
-//   menu.id = "original";
-//   let clickable_products = document.querySelectorAll("#original .product");
-//   let thumbnail = document.querySelector("#thumbnail");
-//   let menu_clone = menu.cloneNode(true);
-//   menu_clone.id = "clone";
-//   main.appendChild(menu_clone);
-//   main.insertBefore(menu_clone, all_products);
-//   menu_clone.classList.add("menu-clone");
-//   menu.appendChild(thumbnail);
-//   let menuclone_changeids = menu_clone.querySelectorAll(".product")
-//   menuclone_changeids.forEach((e)=>{
-//     let cur_id = e.id
-//     let cloned = "cloned-"+cur_id
-//     e.id = cloned
-//   })
+  // menu.id = "original";
+  // let og_prods = document.querySelectorAll("#original .product");
+  let thumbnail = document.querySelector("#thumbnail");
+  // let menu_clone = menu.cloneNode(true);
+  // menu_clone.id = "clone";
+  // console.log(menu_clone)
+
+  let labels = menu.querySelectorAll(".product-hed")
+  let all_labels = document.querySelector(".all-labels")
+  let label_container 
+  for (let i = 0; i<labels.length; i++ ){
+    let cloned = labels[i].cloneNode(true)
+    cloned.id = "cloned-"+menuitems[i].id
+    cloned.classList.add("clone")
+
+    cloned_data = labels[i].getBoundingClientRect()
+    // console.log(cloned_data)
+    cloned.style.opacity = 1;
+    cloned.style.position="absolute"
+    cloned.style.width = cloned_data.width +"px"
+    cloned.style.top = cloned_data.top +"px"
+    cloned.style.height = cloned_data.height +"px"
+    cloned.style.left = cloned_data.left +"px"
+
+    if (i%2 ==0) {
+      // console.log(i)
+      label_container  = document.createElement("div")
+      label_container.appendChild(cloned)
+      // console.log(label_container)
+      // label_container = false;
+    } else {
+      // console.log(i, label_container)
+      label_container.appendChild(cloned)
+      let label_container_outer = document.createElement("div")
+      label_container_outer.appendChild(label_container)
+      all_labels.appendChild(label_container_outer)
+
+      label_container.style.top = "calc(var(--scroll-var) - " + (((i+1)/2 *100)+ 200) + "vh)"
+      label_container_outer.classList.add("label-container_outer")
+      label_container.classList.add("label-container")
+      label_container = false;
+    }
+    
+
+    // console.log(cloned)
+
+
+  }
+
+  // main.appendChild(menu_clone);
+  // main.insertBefore(menu_clone, all_products);
+  // menu_clone.classList.add("menu-clone");
+
+  // let menuclone_changeids = menu_clone.querySelectorAll(".product")
+  // menuclone_changeids.forEach((e)=>{
+  //   let cur_id = e.id
+  //   let cloned = "cloned-"+cur_id
+  //   e.id = cloned
+  // })
+
+
+  menu.appendChild(thumbnail);
 
 });
 //END ON LOAD FUNCTIONS --------------------------------------------------------------------------------------------------//
@@ -135,6 +254,34 @@ window.addEventListener("load", (event) => {
 
 
 
+
+//---------------------------------------------------------------------------------------------------------------------//
+
+//FUNCTIONS FOR PRODUCT SCROLL -------------------------------------------------------------------------------------//
+function whileIntersecting(target, targetid, label) {
+  // console.log(target, label)
+  let targetbounds = target.getBoundingClientRect()
+  let labelbounds = label.getBoundingClientRect()
+  // console.log(productlabels, target, targetbounds, labelbounds, productlabels[targetid])
+  if (productlabels[targetid] =="true") {
+    // console.log("check intersect")
+    if (targetbounds.y < labelbounds.y + labelbounds.height && targetbounds.y+targetbounds.height > labelbounds.y) {
+      label.style.opacity = 1;
+      // console.log(target, label, "INTERSECTED")
+    }else {
+      label.style.opacity = 0;
+      // console.log(target, label, "NOT INTERSECTED")
+    }
+    setTimeout(() => {
+      whileIntersecting(target, targetid, label)
+    }, 100)
+  } else {
+    
+    return;
+  }
+
+
+}
 
 
 //---------------------------------------------------------------------------------------------------------------------//
@@ -162,7 +309,8 @@ class jsCanvas {
   }
   createCanvas(canvas, aspectratio) {
     // console.log(canvas)
-    this.canvas = this.setHiDPICanvas(window.innerWidth, window.innerHeight);
+    // console.log(window.innerWidth, )
+    this.canvas = this.setHiDPICanvas(document.body.clientWidth, window.innerHeight);
     // this.ctx.font = "25px Helvetica";
   }
   pixel_ratio() {

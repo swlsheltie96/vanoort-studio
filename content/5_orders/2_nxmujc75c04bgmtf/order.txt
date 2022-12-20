@@ -1,0 +1,125 @@
+Paymentmethod: paypal
+
+----
+
+Email: s@gmia.coim
+
+----
+
+Name: adjkljlk
+
+----
+
+Items:
+
+- 
+  key: vo-products/vanoort-h-bralette
+  id: vo-products/vanoort-h-bralette
+  quantity: 5
+  price: 235
+  tax: 0
+  title: VANOORT ‘H’ BRALETTE
+  taxrate: 0
+  template: vo-detail
+  uid: vanoort-h-bralette
+  sum: 1175
+  sumtax: 0
+
+----
+
+Orderid: 45L91128A9306273V
+
+----
+
+Redirect: https://www.sandbox.paypal.com/checkoutnow?token=45L91128A9306273V
+
+----
+
+Paymentdetails:
+
+id: 45L91128A9306273V
+status: COMPLETED
+payment_source:
+  paypal:
+    email_address: sb-c0nzj22769141@personal.example.com
+    account_id: DBDJSRFZMA8WC
+    name:
+      given_name: John
+      surname: Doe
+    address:
+      country_code: US
+purchase_units:
+  - 
+    reference_id: default
+    payments:
+      captures:
+        - 
+          id: 4WC985931B531304M
+          status: COMPLETED
+          amount:
+            currency_code: EUR
+            value: "1175.00"
+          final_capture: true
+          seller_protection:
+            status: ELIGIBLE
+            dispute_categories:
+              - ITEM_NOT_RECEIVED
+              - UNAUTHORIZED_TRANSACTION
+          seller_receivable_breakdown:
+            gross_amount:
+              currency_code: EUR
+              value: "1175.00"
+            paypal_fee:
+              currency_code: EUR
+              value: "41.40"
+            net_amount:
+              currency_code: EUR
+              value: "1133.60"
+          links:
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/payments/captures/4WC985931B531304M
+              rel: self
+              method: GET
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/payments/captures/4WC985931B531304M/refund
+              rel: refund
+              method: POST
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/checkout/orders/45L91128A9306273V
+              rel: up
+              method: GET
+          create_time: 2022-11-30T19:37:31Z
+          update_time: 2022-11-30T19:37:31Z
+payer:
+  name:
+    given_name: John
+    surname: Doe
+  email_address: sb-c0nzj22769141@personal.example.com
+  payer_id: DBDJSRFZMA8WC
+  address:
+    country_code: US
+links:
+  - 
+    href: >
+      https://api.sandbox.paypal.com/v2/checkout/orders/45L91128A9306273V
+    rel: self
+    method: GET
+
+----
+
+Paymentcomplete: true
+
+----
+
+Paiddate: 2022-11-30T19:37:31+00:00
+
+----
+
+Invoicedate: 2022-11-30T19:37:31+00:00
+
+----
+
+Uuid: 3MPaQrvWjxP5uV7w

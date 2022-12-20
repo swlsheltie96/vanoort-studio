@@ -2,15 +2,15 @@ Title: FRENCH FROMAGE TSHIRT
 
 ----
 
-Cover: - t-shirt.jpeg
+Cover: - file://ns6Z9ZhIzZ5t3yjd
 
 ----
 
-Thumbnail: 
+Thumbnail: - file://ns6Z9ZhIzZ5t3yjd
 
 ----
 
-Headline: FRENCH FROMAGE TSHIRT
+Productid: french-fromage-tshirt
 
 ----
 
@@ -30,15 +30,23 @@ Tags: Tops
 
 ----
 
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"images":["file:\/\/YhpD1XJFDjakgdbi","file:\/\/voq5XLc74QOGp28M"],"caption":"","ratio":"","crop":"false"},"id":"c8ae461c-e577-4568-8744-33286b165181","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/mSvPR88s4Yjy2EHU"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"026dfe90-11d5-4ed9-acbe-f869ff61183c","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/SXNQgXWSeH63JToM"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1297b42c-a7ea-45e6-a6e5-5b5225011b25","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/FDG4DkBn5at63ksp"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8fdc9e10-f652-4b3a-a0d9-b7b804fa3ba8","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/C5oDCRQFrSD8Smbo"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8913d04b-c306-4913-b9c2-1aff35b9eaa9","isHidden":false,"type":"image"}]
+
+----
+
+Headline: FRENCH FROMAGE TSHIRT
+
+----
+
 Main: 
 
 ----
 
 Productname: FRENCH FROMAGE TSHIRT
-
-----
-
-Productid: FRENCH FROMAGE TSHIRT
 
 ----
 
@@ -55,3 +63,7 @@ Productimage: - t-shirt.jpeg
 ----
 
 Categories: Tops
+
+----
+
+Uuid: KBjKf2HklnR2eguL

@@ -2,19 +2,19 @@ Title: VANOORT ‘H’ BRALETTE
 
 ----
 
-Cover: - t-shirt.jpeg
+Cover: - file://0y2MdNakEpvKTQEz
 
 ----
 
-Thumbnail: - thumbnail.jpeg
+Thumbnail: - file://2iV7qEMDSBviQ2BU
 
 ----
 
-Headline: VANOORT ‘H’ BRALETTE
+Productid: vanoort-h-bralette
 
 ----
 
-Price: 235
+Price: 130
 
 ----
 
@@ -30,28 +30,16 @@ Tags: Tops
 
 ----
 
-Main: - t-shirt.jpeg
+Videotoggle: true
 
 ----
 
-Productname: VANOORT ‘H’ BRALETTE
-
-----
-
-Productid: vanoort-h-bralette
-
-----
-
-Productprice: 355
-
-----
-
-Productdescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat odio vel odio vestibulum posuere. Vivamus vehicula turpis et blandit semper. Duis sit amet viverra quam.
-
-----
-
-Productimage: - thumbnail.jpeg
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/gzg57k1wEUljwBUC"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"ef363afb-5e86-4570-b4ee-f64a16d8f91e","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/aZCNuw5NlkBVK0T8","file:\/\/mVEBxhq9w49dcsRk"],"caption":"","ratio":"","crop":"false"},"id":"ed02ee0f-679c-4257-a920-c615c52ddcf0","isHidden":false,"type":"gallery"},{"content":{"images":["file:\/\/5LBgDHKwLkBMIphH","file:\/\/2iV7qEMDSBviQ2BU"],"caption":"","ratio":"","crop":"false"},"id":"88933746-8b25-4d60-bfec-bc179b2ec083","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/ENMtqJLvWY3U6AKR"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e751dd87-197d-4682-af73-9f9ddf0da03d","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/RjQnvFpPtSKaFLUB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a607a3c5-333a-4447-8f9a-1011a225e0e7","isHidden":false,"type":"image"}]
 
 ----
 
 Categories: Tops
+
+----
+
+Uuid: gU0wOYLOdcIriPev

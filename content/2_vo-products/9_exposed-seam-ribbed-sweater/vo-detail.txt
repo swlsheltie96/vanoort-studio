@@ -2,11 +2,15 @@ Title: EXPOSED SEAM RIBBED SWEATER
 
 ----
 
-Cover: - t-shirt.jpeg
+Cover: - file://gcTy91HmwRxP2yBx
 
 ----
 
-Headline: EXPOSED SEAM RIBBED SWEATER
+Thumbnail: - file://cOlVbbrOTa0ZXskx
+
+----
+
+Productid: exposed-seam-ribbed-sweater
 
 ----
 
@@ -26,7 +30,15 @@ Tags: Tops
 
 ----
 
-Thumbnail: 
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/HkowA8noXZzJJiHc"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bda9e3e3-c2cb-44f7-9e3e-54fad7031c00","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/JrOcQPePBVoVCjWG"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"c679cc7e-5e28-46b8-95eb-7e5c1e575b81","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/8CYP6csEIXGXCNSa"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"97cc7300-ca34-424e-9b24-53f8117621ab","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/z3ocnmPNeEqsHhMu"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fe596785-47c9-49c3-b3c6-ce6cb6186830","isHidden":false,"type":"image"}]
+
+----
+
+Headline: EXPOSED SEAM RIBBED SWEATER
 
 ----
 
@@ -35,3 +47,7 @@ Main:
 ----
 
 Categories: Tops
+
+----
+
+Uuid: p2dMJ9b90PL2dj5C

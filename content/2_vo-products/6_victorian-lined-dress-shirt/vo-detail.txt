@@ -2,11 +2,15 @@ Title: VICTORIAN LINED DRESS SHIRT
 
 ----
 
-Cover: - t-shirt.jpeg
+Cover: - file://vIyp70HxQ6HIayBd
 
 ----
 
-Headline: VICTORIAN LINED DRESS SHIRT
+Thumbnail: - file://vIyp70HxQ6HIayBd
+
+----
+
+Productid: victorian-lined-dress-shirt
 
 ----
 
@@ -26,7 +30,15 @@ Tags: Tops
 
 ----
 
-Thumbnail: 
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/gin74xzyBaGg5ouG"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"da5fd46d-cc7b-49d2-938c-1d2980b45ee8","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/werHMvmF5EvpLqYA"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4f7cc652-926f-4678-9f63-31b397a24b4a","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/6hEtdg68CUkVWicS"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b12d40ec-0abf-4e42-93ce-d2150ba58417","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/j2jfPt4wXoLMU12r"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2b8d98b2-da54-4548-80e3-4d6841e1f39b","isHidden":false,"type":"image"}]
+
+----
+
+Headline: VICTORIAN LINED DRESS SHIRT
 
 ----
 
@@ -35,3 +47,7 @@ Main:
 ----
 
 Categories: Tops
+
+----
+
+Uuid: Kj2oWGZK1vg6BZwa

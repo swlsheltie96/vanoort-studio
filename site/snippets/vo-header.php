@@ -60,6 +60,8 @@
 
 
   <main class="main">
+
   <div class="masthead-container">
       <?php snippet('vo-masthead') ?>
+      
     </div>

@@ -2,11 +2,15 @@ Title: BRITISH LINEN BUTTON DOWN
 
 ----
 
-Cover: - t-shirt.jpeg
+Cover: - file://EENJZdAtfSHYsTB6
 
 ----
 
-Headline: BRITISH LINEN BUTTON DOWN
+Thumbnail: - file://EENJZdAtfSHYsTB6
+
+----
+
+Productid: british-linen-button-down
 
 ----
 
@@ -26,7 +30,15 @@ Tags: Tops
 
 ----
 
-Thumbnail: 
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/fdApHlyRIMFUyeoi"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a4527c25-fb4d-4bcd-bdca-98ca2af0e28f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/O2UQ2KsoZWtV5O85"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"39e78878-b165-4919-a552-b4f8e7e7103c","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/EENJZdAtfSHYsTB6","file:\/\/CaqseqC1rQIb2Wlz"],"caption":"","ratio":"","crop":"false"},"id":"3e988ed6-3858-4708-bb84-0dd2cd6de6ac","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/yje54PvbFBYbPfh9"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"94e85213-8c45-4663-9cfa-6c81c78e4bdf","isHidden":false,"type":"image"}]
+
+----
+
+Headline: BRITISH LINEN BUTTON DOWN
 
 ----
 
@@ -35,3 +47,7 @@ Main:
 ----
 
 Categories: Tops
+
+----
+
+Uuid: cxS3aFwhVm6hwnc3

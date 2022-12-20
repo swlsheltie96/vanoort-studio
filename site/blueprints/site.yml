@@ -18,11 +18,12 @@ tabs:
           # albums: sections/albums
           products: sections/vo-products
 
+
       # The second column has two sections, `notes` and `pages`
       - width: 1/2
         sections:
           # The `notes` section reuses the pages section defined in `/site/blueprints/sections/notes.yml`
-          notes: sections/notes
+          orders: sections/vo-orders
 
           # The `pages` pages section shows other main pages of the site
           # Using the `templates` option, we limit which types of pages are shown
@@ -35,7 +36,6 @@ tabs:
             templates:
               - vo-about
               - vo-home
-              - default
   settings: 
     label: Settings
     icon: car

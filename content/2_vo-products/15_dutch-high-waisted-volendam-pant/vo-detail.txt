@@ -1,0 +1,53 @@
+Title: DUTCH HIGH WAISTED VOLENDAM PANT
+
+----
+
+Cover: - file://XCA91neF0sTBqd2A
+
+----
+
+Thumbnail: - file://XCA91neF0sTBqd2A
+
+----
+
+Productid: 125
+
+----
+
+Price: 400
+
+----
+
+Summary: <ol><li>Made from Wool with a Cotton lining</li><li>Wide leg&nbsp;</li><li>2-pocket</li><li>White side and back lining</li><li>Button closure</li></ol>
+
+----
+
+Text: 
+
+----
+
+Tags: Bottoms
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/yxjTsFQFvtUT0bm0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"420f2df2-291c-4815-8a9c-223031b69ea0","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/HnqTPk48AI2zQXSY"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"47c12584-ad4f-4f69-822b-2446354c150f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/uVkkykuIpMFhzDZb"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"55909119-4931-4412-a76f-28af17d7f1fa","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/XzpHkP3kHL5DPnDm","file:\/\/Kv3nHdvZv5eerIJX"],"caption":"","ratio":"","crop":"false"},"id":"3ae1bf56-7c05-458c-9b09-db825ba0177f","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/D4Gbx1C2LH9zHQZv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4fcbd02e-344f-4646-8ff8-e4c0a3a69c79","isHidden":false,"type":"image"}]
+
+----
+
+Headline: 125
+
+----
+
+Main: 
+
+----
+
+Categories: Bottoms
+
+----
+
+Uuid: t9i91IFS4GkprS26

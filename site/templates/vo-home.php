@@ -1,10 +1,22 @@
 
 <?php
-phpinfo();
+// phpinfo();
+//echo page(option('ww.merx.ordersPage', 'orders'));
+//echo $page->id();
 ?>
 <?php snippet('vo-header') ?>
 <div class="interactive-cover">
-      <input type="range" min="0" max="255" value="1" class="slider" id="cover-slider">
+    <div class="cover-slider">
+        <div class="slider-start">
+
+        </div>
+        <input type="range" min="0" max="255" value="1" class="slider" id="cover-slider">
+
+        <div class="slider-end">
+
+</div>
+    </div>
+      
       <canvas class="interactive-cover-canvas"></canvas>
     </div>
 <div class="interactive-cover-images">
@@ -22,4 +34,6 @@ phpinfo();
         <?php endif ?> 
     <?php endforeach ?>
 </div>
+
+
 <?php snippet('vo-footer') ?>

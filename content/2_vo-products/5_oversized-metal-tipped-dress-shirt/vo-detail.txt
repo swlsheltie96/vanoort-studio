@@ -2,15 +2,15 @@ Title: OVERSIZED METAL TIPPED DRESS SHIRT
 
 ----
 
-Cover: - t-shirt.jpeg
+Cover: - file://7Z6alre3Xa5uCpt6
 
 ----
 
-Thumbnail: 
+Thumbnail: - file://7Z6alre3Xa5uCpt6
 
 ----
 
-Headline: OVERSIZED METAL TIPPED DRESS SHIRT
+Productid: oversized-metal-tipped-dress-shirt
 
 ----
 
@@ -30,8 +30,24 @@ Tags: Tops
 
 ----
 
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/O8ZXWXTJFVC9rKav"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e8f7abb6-c9af-407a-90b5-5490f99c8ce9","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/5mf4iKBXRRrWRmBB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"9bc7826d-a52c-44a3-90ab-b773d4bda0ab","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/lklqorkEupoOpCUT"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"02c141a5-903d-4da3-aa37-4ec81971022f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/MhLM0j311vTrdI2A"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"88f1472d-f112-4da9-af52-74b867896eea","isHidden":false,"type":"image"}]
+
+----
+
+Headline: OVERSIZED METAL TIPPED DRESS SHIRT
+
+----
+
 Main: 
 
 ----
 
 Categories: Tops
+
+----
+
+Uuid: PFpdh92Wjp89hOEe

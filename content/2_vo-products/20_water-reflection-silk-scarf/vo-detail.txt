@@ -1,0 +1,53 @@
+Title: WATER REFLECTION SILK SCARF
+
+----
+
+Cover: - file://6p9BBZyd8SxmXzPM
+
+----
+
+Thumbnail: - file://6p9BBZyd8SxmXzPM
+
+----
+
+Productid: 215
+
+----
+
+Price: 70
+
+----
+
+Summary: <ol><li>Rear hook-and-eye fastening</li><li>Fits true to size</li><li>Straight Hem</li><li>100% Cotton</li></ol>
+
+----
+
+Text: 
+
+----
+
+Tags: Home and Accessories
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/ITXtzMlAibhQzhQs"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"7841da8e-4b3d-44a4-9d05-d26455d43dbc","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/WmkRIwhBsFkJMxF8","file:\/\/6p9BBZyd8SxmXzPM"],"caption":"","ratio":"","crop":"false"},"id":"05ccea8e-ba32-440c-b5d5-809f42b50032","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/C87y63wmiLLzKJnU"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a39e1a62-ea3c-4769-b31b-87d0276cc225","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/iDCeG9L2hxHXBAiW"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"6be594b6-e039-4a05-87a2-48211cbe85aa","isHidden":false,"type":"image"}]
+
+----
+
+Headline: 215
+
+----
+
+Main: 
+
+----
+
+Categories: Home and Accessories
+
+----
+
+Uuid: MEGaSmdFaybsMTLr

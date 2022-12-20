@@ -1,0 +1,53 @@
+Title: WHITE SILK SATIN FORMAL PANT
+
+----
+
+Cover: - file://5T8UEAW79ettknOD
+
+----
+
+Thumbnail: - file://5T8UEAW79ettknOD
+
+----
+
+Productid: 325
+
+----
+
+Price: 200
+
+----
+
+Summary: <ol><li>Loose fit</li><li>Cotton with silk lining&nbsp;</li><li>Double buttoned cuffs&nbsp;</li><li>Made in NY</li><li>Dry clean Only&nbsp;</li></ol>
+
+----
+
+Text: 
+
+----
+
+Tags: Bottoms
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/ceuK26DHwJPl0hYB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"80ac89b9-86ed-431e-9e0b-c9bdd7c02c84","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/DkhdGA9CPDeisWUW"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"651b9bd1-d7f4-47a6-9ec1-0e43a3465d7b","isHidden":false,"type":"image"}]
+
+----
+
+Headline: 325
+
+----
+
+Main: 
+
+----
+
+Categories: Bottoms
+
+----
+
+Uuid: eVPzRgYdjN9KcJb4

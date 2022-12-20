@@ -1,0 +1,41 @@
+Title: LINEN COOKING SHIRT
+
+----
+
+Cover: - file://5fpm9FmFJFkJaWw1
+
+----
+
+Thumbnail: - file://5fpm9FmFJFkJaWw1
+
+----
+
+Productid: linen-cooking-shirt
+
+----
+
+Price: 325
+
+----
+
+Summary: <ol><li>Rear hook-and-eye fastening</li><li>Fits true to size</li><li>Straight Hem</li><li>100% Cotton</li></ol>
+
+----
+
+Text: 
+
+----
+
+Tags: Tops
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/SzR0W7kfQn9MkWJS"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2ddf3e66-d57a-427c-b5af-c213db23620e","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/YHHq84SuJPxMFe60"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fa244b53-e567-416c-bc6e-449279f87409","isHidden":false,"type":"image"}]
+
+----
+
+Uuid: M7i8xyc7F8UUI6pa

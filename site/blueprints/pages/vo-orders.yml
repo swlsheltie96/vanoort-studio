@@ -1,0 +1,17 @@
+title: Orders
+
+status:
+  draft: true
+  unlisted: true
+
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  delete: false
+  preview: false
+  update: false
+  duplicate: false
+
+sections:
+  orders: sections/orders

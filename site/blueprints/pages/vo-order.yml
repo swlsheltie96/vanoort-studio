@@ -1,0 +1,15 @@
+title: field.order
+
+status:
+  draft: page.status.error
+  unlisted: page.status.incomplete
+  listed: page.status.complete
+
+options:
+  changeSlug: false
+  changeTemplate: false
+  changeTitle: false
+  delete: false
+  duplicate: false
+
+extends: layouts/order
