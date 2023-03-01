@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.nav-scroll {
+  display: none;
+}
+
+.masthead-container p, .masthead-container .back {
+  color: white;
+}
+.masthead-container img {
+  filter: invert(1);
+}
+.masthead-container .active .mobile-nav-bar p {
+  color: black;
+}
+.masthead-container .active .mobile-nav-bar img {
+  filter: invert(0);
+}
+.masthead-container .mobile-menu p {
+  color: black;
+}
+
+.zine {
+  padding: 1rem;
+  background-color: black;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+@media (max-width: 800px) {
+  .zine {
+    margin-top: 2rem;
+  }
+}
+
+.column {
+  grid-column: 1/13;
+}
+
+ul, li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=vo-zine.css.map */

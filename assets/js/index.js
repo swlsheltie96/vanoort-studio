@@ -1,30 +1,26 @@
-console.log("index")
-window.addEventListener("load", (event) => {
+var positionOnOpen = 0
 
+window.addEventListener("load", (event) => {
+  console.log("index load")
   //MASTHEAD 
   let masthead = document.querySelector(".masthead-container");
+  let footer = document.querySelector(".footer")
 
-  //MAIN MENU
-  let menu = document.querySelector(".menu-main");
-  let precontainer = document.querySelector(".menu-precontainer");
-  // let products = precontainer.querySelectorAll(".product");
-
-  let cols = document.querySelectorAll(".menu-section");
-  let big_products = document.querySelectorAll(".product-image");
-  let all_products = document.querySelector(".all-products");
-
-  let main = document.querySelector(".main");
-
-  let cur_height_total = 0;
-  let cur_col = 0;
-  let setup_class 
-
+  //mobile menu
+  let ham = document.querySelector("#hamburger") 
 
   //SET BODY HEIGHT OF ORIGINAL AND CLONE MENU -------------------------------------------------------------------------------------//
   let mastheadheight = masthead.offsetHeight;
-  console.log(mastheadheight)
+  let footerheight = footer.offsetHeight
+  // console.log(mastheadheight)
+  setfooterheight(footerheight)
   setbodyheight(mastheadheight)
   // console.log("boo")
+  if (window.innerWidth < 800) {
+    mobileHamburger(ham)
+    
+  }
+
 
 
 });
@@ -35,7 +31,12 @@ window.addEventListener("load", (event) => {
 
 
 //OTHER FUNCTIONS    -------------------------------------------------------------------------------------//
-
+function setfooterheight(height) {
+  if (window.CSS && CSS.supports('color', 'var(--fake-var)')) {
+    const root = document.documentElement;
+    root.style.setProperty('--footer-height', `${height}px`);
+  }
+}
 function setbodyheight(height) {
   // Checking for css variables support
   if (window.CSS && CSS.supports('color', 'var(--fake-var)')) {
@@ -48,3 +49,35 @@ function setbodyheight(height) {
  }
 
 
+ function mobileHamburger(ham) {
+  ham.addEventListener("click", (e)=> {
+    handleHam(e, ham)
+  })
+  ham.addEventListener("touchstart", (e)=> {
+    handleHam(e, ham)
+  })
+}
+function handleHam(e, ham) {
+  e.preventDefault()
+  let mobilemenu = document.querySelector(".mobile.hamburgermenu")
+  // console.log(mobilemenu)
+  if (mobilemenu.classList.contains("active")){
+    // console.log(positionOnOpen)
+    document.body.style.position = '';
+    window.scrollTo(0, positionOnOpen);
+    mobilemenu.classList.toggle("active")
+    mobilemenu.style.transform = `translateY(calc(-${window.innerHeight}px + 4rem))`
+    ham.textContent = "+"
+  } else {
+    positionOnOpen = lastKnownScrollPosition
+    mobilemenu.classList.toggle("active")
+    mobilemenu.style.transform = "translateY(0px)"
+    mobilemenu.style.height = window.innerHeight +"px"
+    ham.textContent = "—"
+    setTimeout(() => {
+      document.body.style.position = 'fixed';
+    }, 500)
+   
+  }
+
+}

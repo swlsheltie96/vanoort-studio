@@ -10,17 +10,63 @@ icon: 🏠
 options:
   changeStatus: true
 
-# Here we define an info section and a pages section (`photography`)
-sections:
-  content:
-    type: fields
-    fields:
-      headline:
-        type: text
-        width: 1/2
-      gap:
-        width: 1/2
-      subheadline:
-        type: text
-        width: 1/2
-
+columns: 
+    - width: 1/2
+        sections: 
+          fields: 
+            fields: 
+              cover: 
+                label: Interactive Cover Images
+                type: files
+                query: page.files.filterBy('filename', '^=', 'cover')
+                max: 10
+              footerimages: 
+                label: Footer Background Images
+                type: files
+                query: page.files.filterBy('filename', '^=', 'cover')
+                max: 10
+              masthead: 
+                label: Main Logo
+                type: files
+                query: page.files.filterBy('filename', '^=', 'logo')
+                multiple: false
+                width: 1/2
+                image: 
+                  back: white
+              mobilemasthead: 
+                label: Mobile Logo
+                type: files
+                query: page.files.filterBy('filename', '^=', 'logo')
+                multiple: false
+                width: 1/2
+                image: 
+                  back: white
+              footer:
+                label: Footer Logo
+                type: files
+                query: page.files.filterBy('filename', '^=', 'logo')
+                width: 1/2
+                multiple: false
+                image: 
+                  back: white
+              cart: 
+                label: Cart Logo
+                type: files
+                query: page.files.filterBy('filename', '^=', 'logo')
+                width: 1/2
+                multiple: false
+                image: 
+                  back: white
+              illustrations: 
+                label: Illustrations
+                type: files
+                query: page.files.filterBy('filename', '^=', 'illustration')
+                image: 
+                  back: white
+    - width: 1/2
+      sections: 
+        files: 
+          label: All images
+          template: image
+          image: 
+            back: white

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Sohne Mono";
+  src: url("/assets/fonts/sohne/test-soehne-mono-buch.woff2") format("woff2");
+}
+@font-face {
+  font-family: "United Sans";
+  src: url("/assets/fonts/sohne/test-untitled-sans-medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-extrathin-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-extrathin-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-ExtraThin.otf") format("otf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-extrathinitalic-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-extrathinitalic-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-ExtraThinItalic.otf") format("otf");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-thin-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-thin-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-Thin.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-thinitalic-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-thinitalic-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-ThinItalic.otf") format("otf");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-book-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-book-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-Book.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-bookitalic-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-bookitalic-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-BookItalic.otf") format("otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-medium-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-medium-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-Medium.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-mediumitalic-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-mediumitalic-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-MediumItalic.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=vo-fonts.css.map */

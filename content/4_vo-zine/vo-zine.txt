@@ -1,0 +1,9 @@
+Title: Zine
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file:\/\/YBXAp4KF32UK1KfE","file:\/\/E2A9rH0ih2BgLHpq","file:\/\/6tIuZdpvBMLZxOVD","file:\/\/yM0KTfLsQGaWyQWh","file:\/\/jtSD6kdknB6JByXe","file:\/\/C4UV0DRAmAnqjY00"],"caption":"","ratio":"","crop":"false"},"id":"85291055-cdf7-45ce-8450-514a9ad98bb8","isHidden":false,"type":"gallery"}],"id":"0e68f6ee-587a-4c80-927f-b329ed460433","width":"1\/1"}],"id":"6c8a6135-c951-40f3-bdba-3b35eaec9035"}]
+
+----
+
+Uuid: iD2cVHidrD4hsdB3

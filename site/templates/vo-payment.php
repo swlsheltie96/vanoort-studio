@@ -1,11 +1,13 @@
+<?php 
+
+?>
+
 <?php snippet('vo-header') ?>
 
   <form class="checkout-form grid" action="<?= url('pay') ?>" method="post">
-  <div class="back" onclick="history.back()">
-← Back
-</div>
+
   <div class="checkout-form_inner">
-    <h2>Checkout</h2>
+    <h2>Shipping Address</h2>
     <div class="forminput firstname">
       <label>
         <p>First Name</p>
@@ -59,10 +61,11 @@
     </div>
     <div class="paymentmethods">
       <h3>Payment Methods</h3>
+      <p style="margin-top: 0">Billing address will be specified through preferred payment method</p>
       <p>
         <label>
-          <input type="radio" name="paymentMethod" value="empty-gateway" required>
-          Example Payment Method
+          <input type="radio" name="paymentMethod" value="credit-card-sca" required>
+          Credit Card
         </label>
       </p>
       <p>
@@ -72,10 +75,14 @@
         </label>
       </p>
       <p>
+
         <button>CHECKOUT</button>
       </p>
     </div>
     </div>
   </form>
+
+  
+
 
   <?php snippet('vo-footer') ?>

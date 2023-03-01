@@ -31,7 +31,7 @@ trait PageActions
 	 * Adapts necessary modifications which page uuid, page slug and files uuid
 	 * of copy objects for single or multilang environments
 	 */
-	protected function adaptCopy(Page $copy, bool $files = false): Page
+	protected function adaptCopy(Page $copy, bool $files = false, bool $children = false): Page
 	{
 		if ($this->kirby()->multilang() === true) {
 			foreach ($this->kirby()->languages() as $language) {
@@ -43,9 +43,19 @@ trait PageActions
 				) {
 					$copy = $copy->save(['uuid' => Uuid::generate()], $language->code());
 
+					// regenerate UUIDs of page files
 					if ($files !== false) {
 						foreach ($copy->files() as $file) {
 							$file->save(['uuid' => Uuid::generate()], $language->code());
+						}
+					}
+
+					// regenerate UUIDs of all page children
+					if ($children !== false) {
+						foreach ($copy->index(true) as $child) {
+							// always adapt files of subpages as they are currently always copied;
+							// but don't adapt children because we already operate on the index
+							$this->adaptCopy($child, true);
 						}
 					}
 				}
@@ -66,9 +76,19 @@ trait PageActions
 		if (Uuids::enabled() === true) {
 			$copy = $copy->save(['uuid' => Uuid::generate()]);
 
+			// regenerate UUIDs of page files
 			if ($files !== false) {
 				foreach ($copy->files() as $file) {
 					$file->save(['uuid' => Uuid::generate()]);
+				}
+			}
+
+			// regenerate UUIDs of all page children
+			if ($children !== false) {
+				foreach ($copy->index(true) as $child) {
+					// always adapt files of subpages as they are currently always copied;
+					// but don't adapt children because we already operate on the index
+					$this->adaptCopy($child, true);
 				}
 			}
 		}
@@ -203,7 +223,7 @@ trait PageActions
 			throw new InvalidArgumentException('Use the changeSlug method to change the slug for the default language');
 		}
 
-		$arguments = ['page' => $this, 'slug' => $slug, 'languageCode' => $languageCode];
+		$arguments = ['page' => $this, 'slug' => $slug, 'languageCode' => $language->code()];
 		return $this->commit('changeSlug', $arguments, function ($page, $slug, $languageCode) {
 			// remove the slug if it's the same as the folder name
 			if ($slug === $page->uid()) {
@@ -484,7 +504,7 @@ trait PageActions
 		$copy = $parentModel->clone()->findPageOrDraft($slug);
 
 		// normalize copy object
-		$copy = $this->adaptCopy($copy, $files);
+		$copy = $this->adaptCopy($copy, $files, $children);
 
 		// add copy to siblings
 		static::updateParentCollections($copy, 'append', $parentModel);
@@ -600,9 +620,7 @@ trait PageActions
 					->count();
 
 				// default positioning at the end
-				if ($num === null) {
-					$num = $max;
-				}
+				$num ??= $max;
 
 				// avoid zeros or negative numbers
 				if ($num < 1) {

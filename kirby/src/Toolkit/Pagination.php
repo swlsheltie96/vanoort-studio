@@ -389,9 +389,7 @@ class Pagination
 
 		// ensure that page is set to something, otherwise
 		// generate "default page" based on other params
-		if ($this->page === null) {
-			$this->page = $this->firstPage();
-		}
+		$this->page ??= $this->firstPage();
 
 		// allow a page value of 1 even if there are no pages;
 		// otherwise the exception will get thrown for this pretty common case
@@ -406,9 +404,9 @@ class Pagination
 		if ($this->page < $min || $this->page > $max) {
 			if (static::$validate === true) {
 				throw new ErrorPageException('Pagination page ' . $this->page . ' does not exist, expected ' . $min . '-' . $max);
-			} else {
-				$this->page = max(min($this->page, $max), $min);
 			}
+
+			$this->page = max(min($this->page, $max), $min);
 		}
 
 		return $this;

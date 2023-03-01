@@ -18,6 +18,10 @@ Price: 125
 
 ----
 
+Onesize: false
+
+----
+
 Summary: <ol><li>Linen calendar outside</li><li>Breathable silk inner lining</li><li>Straight Leg</li><li>32 waist&nbsp;&nbsp;</li><li>2-pocket</li></ol>
 
 ----
@@ -35,6 +39,10 @@ Videotoggle: false
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/AbGcT9OlNJdUIpJY"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"abcda19b-18ba-4d3e-b797-1325a7aa7f78","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/5swWGxCFq1E02nm5"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"c65855f2-b110-45f6-a99e-1dc1b4fb464f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/kDWMGaruOcqt2P5q"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"23de0bff-3be4-41fc-966b-7aaa64cfac2f","isHidden":false,"type":"image"}]
+
+----
+
+Related: 
 
 ----
 

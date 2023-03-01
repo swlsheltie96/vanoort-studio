@@ -1,0 +1,336 @@
+@import "vo-fonts";
+:root {
+  --stickytop: 0px;
+  --boxtop: 3rem;
+  --bodytxtsize: 0.7rem;
+  --beneath-masthead: 85vh;
+  --masthead-height: 15vh;
+  --scroll-var: 0px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $maison;
+  font-size: var(--bodytxtsize);
+}
+
+button,
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: black;
+  background: #efefef;
+  box-shadow: 0px 0px 0.5px 1px rgb(0 0 0 / 10%), 1px 1px 8px rgb(0 0 0 / 15%),
+    inset 3px 3px 4px rgb(255 255 255 / 63%),
+    inset -6px -9px 3px rgb(0 0 0 / 10%);
+  border: solid 0.1px rgba(128, 128, 128, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  text-decoration: none;
+  cursor: pointer;
+  flex-direction: column;
+  &.unstyled {
+    border: unset;
+    background: unset;
+    box-shadow: unset;
+    height: unset;
+    display: block;
+    font-size: var(--bodytxtsize);
+    padding: unset;
+    border-radius: unset;
+    width: unset;
+  }
+}
+
+.back {
+  @media (max-width: 800px) {
+    font-size: 0.8rem;
+  }
+  // grid-column: 1/2;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 200;
+  // position: fixed;
+  // top: var(--masthead-height);
+}
+
+.grid {
+  @media (max-width: 800px) {
+    --columns: 4;
+  }
+  --columns: 12;
+  --gutter: 1rem;
+  display: grid;
+  grid-gap: var(--gutter);
+  grid-template-columns: repeat(var(--columns), 1fr);
+  .column {
+    margin-bottom: var(--gutter);
+  }
+}
+.main {
+  margin-bottom: var(--footer-height);
+}
+.menu-precontainer {
+  @media (max-width: 800px) {
+    opacity: 1;
+    position: relative;
+    padding: 0.5rem;
+    background-color: white;
+    padding-top: 0;
+    // top: var(--masthead-height);
+  }
+  padding: unset;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  top: unset;
+  .inner {
+    @media (max-width: 800px) {
+      grid-column: span var(--columns);
+      padding-top: 0;
+    }
+    grid-column: 1/3;
+  }
+  .mobile-menu-hed {
+    @media (max-width:800px) {
+      display: block;
+      
+    }
+    display: none;
+    margin-top: 1rem;
+    h6 {
+      font-size: 1rem;
+      font-weight: 200;
+      text-transform: uppercase;
+      margin: 0;
+      text-align: left;
+    }
+  }
+}
+
+.menu-main {
+  @media (max-width: 800px) {
+    display: none;
+  }
+  height: var(--beneath-masthead);
+  background-color: white;
+  box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 10%);
+  clip-path: inset(0px 0px -20px 0px);
+  position: sticky;
+  top: var(--masthead-height);
+  padding: 0 1rem;
+  // margin-bottom: 34vh;
+
+  .menu-hed {
+    height: 1.5rem;
+    h6 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 200;
+      margin: 0;
+    }
+    &.top {
+      margin-top: 0;
+    }
+  }
+  .menu-section {
+    grid-column: span 2;
+    height: 100%;
+    a {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .history {
+      font-weight: 200;
+      text-transform: uppercase;
+    }
+  }
+}
+.product {
+  // z-index: -1;
+  position: relative;
+  margin-bottom: 0.25rem;
+  transition: opacity 300ms;
+  cursor: pointer;
+  p {
+    font-weight: 300;
+  }
+  &.lowlight {
+    opacity: 0.5;
+    transition: opacity 300ms;
+  }
+}
+.product-hed {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+}
+.product-title {
+  text-decoration: none;
+  font-weight: 300;
+}
+.product-summary {
+  text-transform: uppercase;
+  ol {
+    margin: 0;
+    // list-style: none;
+    padding: 0 1rem;
+  }
+  li {
+    font-weight: 200;
+  }
+}
+
+.all-products {
+  @media (max-width: 800px) {
+    display: none;
+    margin-top: unset;
+    padding-top: 1rem;
+    // height: 100vh;
+  }
+  z-index: 0;
+  position: relative;
+  margin-top: 150vh; //need to change height in vo-home.js accordingly, around line 241
+  &.grid {
+    --gutter: 0;
+  }
+
+  .product-image {
+    @media (max-width: 800px) {
+      &:nth-child(odd) {
+        grid-column: 1/3;
+        p {
+          padding: 0rem 4px 0.5rem 4px;
+        }
+      }
+      &:nth-child(even) {
+        grid-column: 3/5;
+        p {
+          padding: 0rem 4px 0.5rem 4px;
+        }
+      }
+      height: 50vh;
+      overflow: hidden;
+    }
+    grid-column: span 6;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    figure {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .mobile-label {
+      @media (max-width: 800px) {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+      }
+      display: none;
+      justify-content: space-between;
+      background-color: white;
+      p {
+        font-weight: 300;
+        line-height: 1.2;
+      }
+    }
+  }
+}
+.empty {
+  @media (max-width: 800px) {
+    height: 0vh;
+  }
+  height: 100vh;
+  pointer-events: none;
+}
+
+.clone {
+  pointer-events: none;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.thumbnail {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc((100vw - 2rem) / 6);
+  height: calc((100vw - 2rem) / 6);
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 100ms opacity;
+    &.on {
+      opacity: 1;
+    }
+  }
+}
+
+.all-labels {
+  position: absolute;
+  top: 0;
+  // grid-column: span 12;
+  width: 100%;
+  pointer-events: none;
+}
+
+.label-container_outer {
+  height: 100vh;
+  // border: solid red 3px;
+  z-index: 3;
+  overflow: hidden;
+  position: relative;
+}
+
+.label-container {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: calc(var(--scroll-var) - 300vh);
+}
+
+#mobile-view {
+  @media (max-width: 800px) {
+    display: flex;
+  }
+  position: relative;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem 1rem 0rem 1rem;
+  display: none;
+  // top: 200px;
+  z-index: 1;
+  .active {
+    text-decoration: underline;
+  }
+  p {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+}

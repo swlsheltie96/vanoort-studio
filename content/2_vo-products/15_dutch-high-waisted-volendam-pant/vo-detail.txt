@@ -38,6 +38,15 @@ Imgs: [{"content":{"location":"kirby","image":["file:\/\/yxjTsFQFvtUT0bm0"],"src
 
 ----
 
+Related:
+
+- page://PFpdh92Wjp89hOEe
+- page://KBjKf2HklnR2eguL
+- page://YmK2RUwdYAICOyvd
+- page://p2dMJ9b90PL2dj5C
+
+----
+
 Headline: 125
 
 ----

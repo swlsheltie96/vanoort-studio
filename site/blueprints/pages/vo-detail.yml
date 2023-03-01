@@ -43,6 +43,9 @@ columns:
         placeholder: 0
         required: true
         step: .01
+      onesize:
+        label: One Size
+        type: toggle
       summary:
         label: Menu Summary
         type: list
@@ -102,9 +105,10 @@ columns:
             fieldsets:
               - image
               - gallery
-      recirc: 
-        label: Related Items
-        type: pages
+          related: 
+            type: pages
+            label: Related Items
+            query: page.siblings(false)
       files: 
         label: All Images
         template: image

@@ -18,6 +18,10 @@ Price: 345
 
 ----
 
+Onesize: false
+
+----
+
 Summary: <ol><li>Long sleeve&nbsp;</li><li>Cotton blend&nbsp;</li><li>RIbbed Knit&nbsp;</li><li>Wide neck&nbsp;</li><li>Fits true to size</li></ol>
 
 ----
@@ -35,6 +39,10 @@ Videotoggle: false
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/HkowA8noXZzJJiHc"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bda9e3e3-c2cb-44f7-9e3e-54fad7031c00","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/JrOcQPePBVoVCjWG"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"c679cc7e-5e28-46b8-95eb-7e5c1e575b81","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/8CYP6csEIXGXCNSa"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"97cc7300-ca34-424e-9b24-53f8117621ab","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/z3ocnmPNeEqsHhMu"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fe596785-47c9-49c3-b3c6-ce6cb6186830","isHidden":false,"type":"image"}]
+
+----
+
+Related: 
 
 ----
 

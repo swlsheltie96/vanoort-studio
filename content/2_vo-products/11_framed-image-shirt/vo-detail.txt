@@ -18,6 +18,10 @@ Price: 70
 
 ----
 
+Onesize: true
+
+----
+
 Summary: <ol><li>Double layered organza</li><li>Image sewn in between layers at breast</li><li>All Imperfection are unique to original image&nbsp;</li><li>Slightly Oversized fit&nbsp;</li><li>Long sleeved&nbsp;</li></ol>
 
 ----
@@ -35,6 +39,10 @@ Videotoggle: false
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/AWjZOzTsDXQT6B6j"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"005dd009-a693-49be-9172-939814955fce","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/qM5hYKrOWHr85EDv","file:\/\/rRIox9JYULotO6dx"],"caption":"","ratio":"","crop":"false"},"id":"9596e4e5-9d56-4bc3-a986-eb6aaf74b1c3","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/CODLvhoHCme65uMW"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bb239cba-5bc3-4058-8bb8-69a36147baf1","isHidden":false,"type":"image"}]
+
+----
+
+Related: 
 
 ----
 

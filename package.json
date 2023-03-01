@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "matter-js": "^0.18.0",
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "stripe": "^11.8.0"
   },
   "devDependencies": {}
 }

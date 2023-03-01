@@ -2,15 +2,115 @@ Title: Home
 
 ----
 
-Text: hello hello jsd;flkjas;kdlfj
+Cover:
+
+- file://XQGgg6QZEMUV04pf
+- file://HcbH5N0f3bCwH1Jz
+- file://wU1NddQGCiszJ4AI
+- file://FZGlXiVvlYDXol7m
+- file://UrKD0DE6uAmrsvbu
+- file://QC0wXGH4cRoHyNEy
+- file://lkdoCvtWMza8RUwW
+- file://V51oOMPfl0SnG1Ej
+- file://rOjUuwcwXLGA1EpF
+- file://ZoGAMaunN9CBDE2R
 
 ----
 
-Headline: hello gello
+Footerimages:
+
+- file://o8Xde5SabkQL17cu
+- file://XQGgg6QZEMUV04pf
+- file://ZoGAMaunN9CBDE2R
+- file://wU1NddQGCiszJ4AI
+- file://UrKD0DE6uAmrsvbu
+- file://V51oOMPfl0SnG1Ej
+
+----
+
+Masthead: - file://6VhsvpUdMeIMjkj1
+
+----
+
+Mobilemasthead: - file://t3OHKMCG5UaP7DF4
+
+----
+
+Footer: - file://4q6ijlTzCeKBXU2u
+
+----
+
+Cart: - file://YDbf8dTApgWXFCD0
+
+----
+
+Illustrations:
+
+- file://r8xb3nDvd765uJqP
+- file://vXz4dq8ZMiBWA1nY
+- file://oQzTNM5Fn3uHXwnN
+- file://ZzFaUZeRIohClVFs
+- file://MGNRdqRkwIzLT2ML
+- file://B7EmeOrMSPyi4Lxy
+- file://8xM0yUcuqwGtR1eM
+- file://wQH480b0tAXN6EEy
+- file://1n1Pt4cIklN2CGhp
+- file://WhIaa0GyKnTnnLgN
+- file://1ZOoKkXcWHI4ORBE
+- file://FFwIRf6UoQpluyjJ
+- file://DJhEr5jVudt236dK
+- file://KskjAZIjCwmTQvKh
+- file://ZP2dMDea4VSyffeZ
+- file://FHs45FWILrjFVjca
+- file://KLMrqCtecWuKDkaR
+- file://2ofgUoVsPS6uJzcq
+
+----
+
+Images:
+
+- file://V51oOMPfl0SnG1Ej
+- file://FZGlXiVvlYDXol7m
+- file://wU1NddQGCiszJ4AI
+- file://rOjUuwcwXLGA1EpF
+- file://Eeb2zw68vR85eEuX
+- file://r8xb3nDvd765uJqP
+- file://ZoGAMaunN9CBDE2R
+- file://GKZNGkHK85kSwFl5
+- file://vXz4dq8ZMiBWA1nY
+- file://oQzTNM5Fn3uHXwnN
+- file://ZzFaUZeRIohClVFs
+- file://MGNRdqRkwIzLT2ML
+- file://B7EmeOrMSPyi4Lxy
+- file://WhIaa0GyKnTnnLgN
+- file://1n1Pt4cIklN2CGhp
+- file://wQH480b0tAXN6EEy
+- file://8xM0yUcuqwGtR1eM
+- file://KskjAZIjCwmTQvKh
+- file://o8Xde5SabkQL17cu
+- file://DJhEr5jVudt236dK
+- file://FHs45FWILrjFVjca
+- file://2ofgUoVsPS6uJzcq
+- file://ZP2dMDea4VSyffeZ
+- file://YDbf8dTApgWXFCD0
+- file://4q6ijlTzCeKBXU2u
+- file://FFwIRf6UoQpluyjJ
+- file://t3OHKMCG5UaP7DF4
+- file://6VhsvpUdMeIMjkj1
+- file://1ZOoKkXcWHI4ORBE
+- file://KLMrqCtecWuKDkaR
+
+----
+
+Headline: Site
 
 ----
 
 Subheadline: A fully documented example project
+
+----
+
+Text: hello hello jsd;flkjas;kdlfj
 
 ----
 

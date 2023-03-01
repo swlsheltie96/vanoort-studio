@@ -5,6 +5,10 @@
     <?php $i++ ?>
     <div class="product-image product-<?= $i ?> " id="productlink-<?= $project->uid() ?>">
       <a href="<?= $project->url() ?>">
+        <div class="mobile-label ">
+        <p class="mobile-product-title"><?= $project->title()->html() ?></p>
+                        <p class="mobile-product-price"><?= $project->price()->html() ?></p>
+        </div>
         <figure>
           <?= ($cover = $project->cover()->toFile()) ?>
 

@@ -18,6 +18,10 @@ Price: 200
 
 ----
 
+Onesize: false
+
+----
+
 Summary: <ol><li>100% COTTON&nbsp;</li><li>Western style hem&nbsp;</li><li>Loose fit&nbsp;</li><li>Metal Tipped collars</li></ol>
 
 ----
@@ -35,6 +39,10 @@ Videotoggle: false
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/O8ZXWXTJFVC9rKav"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e8f7abb6-c9af-407a-90b5-5490f99c8ce9","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/5mf4iKBXRRrWRmBB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"9bc7826d-a52c-44a3-90ab-b773d4bda0ab","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/lklqorkEupoOpCUT"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"02c141a5-903d-4da3-aa37-4ec81971022f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/MhLM0j311vTrdI2A"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"88f1472d-f112-4da9-af52-74b867896eea","isHidden":false,"type":"image"}]
+
+----
+
+Related: 
 
 ----
 

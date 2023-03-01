@@ -1,9 +1,7 @@
 <?php snippet('vo-header') ?>
 
 <div class="checkout grid">
-<div class="back" onclick="history.back()">
-← Back
-</div>
+
   <?php snippet('vo-cart', ['cart' => merx()->cart()]) ?>
   
   <div class="button-container">
@@ -13,7 +11,10 @@
     </button>
   </a>
   </div>
- 
+  <div class="illustration">
+  <?php snippet('vo-illustration') ?>
+
+  </div>
 </div>
 
 <?php snippet('vo-footer') ?>

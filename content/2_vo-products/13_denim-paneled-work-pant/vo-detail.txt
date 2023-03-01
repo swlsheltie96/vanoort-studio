@@ -18,6 +18,10 @@ Price: 145
 
 ----
 
+Onesize: true
+
+----
+
 Summary: <ol><li>100% denim&nbsp;</li><li>Straight Leg Loose fit&nbsp;</li><li>4-pocket&nbsp;</li><li>Paneled with label detailing&nbsp;</li><li>Zip Fly / button closure&nbsp;</li><li>Dry clean only</li></ol>
 
 ----
@@ -35,6 +39,10 @@ Videotoggle: false
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/lxf5KD8KVMascupN"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"5d93515c-6381-46b2-b275-677c4aceef0e","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/qo1AKU4Vk7bAjoa9"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"08835850-8858-4b34-8227-0bf34dbc0558","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/fuwvEbw9EniIm1XX"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8f60affc-be04-497d-a465-ff92373d9260","isHidden":false,"type":"image"}]
+
+----
+
+Related: 
 
 ----
 

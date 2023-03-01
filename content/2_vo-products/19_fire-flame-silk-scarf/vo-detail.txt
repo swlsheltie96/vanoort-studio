@@ -18,6 +18,10 @@ Price: 125
 
 ----
 
+Onesize: true
+
+----
+
 Summary: <ol><li>Rear hook-and-eye fastening</li><li>Fits true to size</li><li>Straight Hem</li><li>100% Cotton</li></ol>
 
 ----
@@ -26,7 +30,7 @@ Text:
 
 ----
 
-Tags: Home and Accessories
+Tags: Accessories
 
 ----
 
@@ -35,6 +39,10 @@ Videotoggle: false
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/Z3sTh9wu2X5QjdM1"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4c6341cc-6ba8-4024-89b6-a5faf958f007","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/dLFkSUWpwfJMxu2J"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a72d1e5e-d579-4457-881b-a0449f925fbc","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":[],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1bdeedab-a58b-44b0-9919-d8701ba454aa","isHidden":false,"type":"image"}]
+
+----
+
+Related: 
 
 ----
 

@@ -1,0 +1,115 @@
+.masthead-container {
+  box-shadow: unset;
+  width: 100%;
+  position: sticky;
+  padding: 0 1rem;
+  top: var(--stickytop);
+  z-index: 3;
+}
+.masthead-container.inner {
+  position: absolute;
+  top: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.nav-top {
+  height: 2rem;
+  height: fit-content;
+}
+@media (max-width: 800px) {
+  .nav-top {
+    display: none;
+  }
+}
+.nav-top > div {
+  grid-column: span 2;
+}
+.nav-top > div a {
+  text-decoration: none;
+  color: black;
+}
+.nav-top > div p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.nav-top .nav-logo {
+  grid-column: 11/13;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.nav-top .nav-scroll {
+  transition: opacity 300ms;
+}
+
+.mobile {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  transform: translateY(calc(-94vh + 2rem));
+  transition: transform 500ms, background-color 300ms;
+}
+@media (min-width: 800px) {
+  .mobile {
+    display: none;
+  }
+}
+.mobile.active {
+  background-color: white !important;
+}
+.mobile .mobile-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem;
+}
+.mobile .mobile-inner .mobile-menu div {
+  margin-bottom: 0.5rem;
+}
+.mobile .mobile-nav-bar {
+  display: flex;
+  height: 6vh;
+  align-items: center;
+}
+.mobile .mobile-nav-bar .mobile-logo {
+  width: 100%;
+}
+.mobile .mobile-nav-bar .mobile-logo img {
+  object-fit: contain;
+  height: 100%;
+  margin: auto;
+}
+.mobile .mobile-nav-bar .mobile-hamburger {
+  width: 100%;
+  text-align: right;
+}
+.mobile .mobile-nav-bar .mobile-hamburger p {
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+.mobile .mobile-nav-bar .mobile-cart {
+  width: 100%;
+}
+.mobile .mobile-nav-bar .mobile-cart span img {
+  width: 20px;
+  display: inline-block;
+  transform: translate(0px, 5px);
+}
+.mobile p {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=vo-masthead.css.map */

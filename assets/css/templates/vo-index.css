@@ -1,0 +1,406 @@
+@font-face {
+  font-family: "Sohne Mono";
+  src: url("/assets/fonts/sohne/test-soehne-mono-buch.woff2") format("woff2");
+}
+@font-face {
+  font-family: "United Sans";
+  src: url("/assets/fonts/sohne/test-untitled-sans-medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-extrathin-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-extrathin-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-ExtraThin.otf") format("otf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-extrathinitalic-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-extrathinitalic-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-ExtraThinItalic.otf") format("otf");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-thin-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-thin-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-Thin.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-thinitalic-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-thinitalic-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-ThinItalic.otf") format("otf");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-book-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-book-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-Book.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-bookitalic-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-bookitalic-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-BookItalic.otf") format("otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-medium-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-medium-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-Medium.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maison Neue Extended";
+  src: url("/assets/fonts/maisonneueextended/maisonneueextended-mediumitalic-webfont.woff2") format("woff2"), url("/assets/fonts/maisonneueextended/maisonneueextended-mediumitalic-webfont.woff") format("woff"), url("/assets/fonts/maisonneueextended/MaisonNeueExtended-MediumItalic.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+:root {
+  --stickytop: 0px;
+  --boxtop: 3rem;
+  --bodytxtsize: 0.7rem;
+  --beneath-masthead: 85vh;
+  --masthead-height: 15vh;
+  --scroll-var: 0px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Maison Neue Extended", arial, helvetica, sans-serif;
+  font-size: var(--bodytxtsize);
+}
+
+button,
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: black;
+  background: #efefef;
+  box-shadow: 0px 0px 0.5px 1px rgba(0, 0, 0, 0.1), 1px 1px 8px rgba(0, 0, 0, 0.15), inset 3px 3px 4px rgba(255, 255, 255, 0.63), inset -6px -9px 3px rgba(0, 0, 0, 0.1);
+  border: solid 0.1px rgba(128, 128, 128, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  text-decoration: none;
+  cursor: pointer;
+  flex-direction: column;
+}
+button.unstyled,
+.button.unstyled {
+  border: unset;
+  background: unset;
+  box-shadow: unset;
+  height: unset;
+  display: block;
+  font-size: var(--bodytxtsize);
+  padding: unset;
+  border-radius: unset;
+  width: unset;
+}
+
+.back {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 200;
+}
+@media (max-width: 800px) {
+  .back {
+    font-size: 0.8rem;
+  }
+}
+
+.grid {
+  --columns: 12;
+  --gutter: 1rem;
+  display: grid;
+  grid-gap: var(--gutter);
+  grid-template-columns: repeat(var(--columns), 1fr);
+}
+@media (max-width: 800px) {
+  .grid {
+    --columns: 4;
+  }
+}
+.grid .column {
+  margin-bottom: var(--gutter);
+}
+
+.main {
+  margin-bottom: var(--footer-height);
+}
+
+.menu-precontainer {
+  padding: unset;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  top: unset;
+}
+@media (max-width: 800px) {
+  .menu-precontainer {
+    opacity: 1;
+    position: relative;
+    padding: 0.5rem;
+    background-color: white;
+    padding-top: 0;
+  }
+}
+.menu-precontainer .inner {
+  grid-column: 1/3;
+}
+@media (max-width: 800px) {
+  .menu-precontainer .inner {
+    grid-column: span var(--columns);
+    padding-top: 0;
+  }
+}
+.menu-precontainer .mobile-menu-hed {
+  display: none;
+  margin-top: 1rem;
+}
+@media (max-width: 800px) {
+  .menu-precontainer .mobile-menu-hed {
+    display: block;
+  }
+}
+.menu-precontainer .mobile-menu-hed h6 {
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+}
+
+.menu-main {
+  height: var(--beneath-masthead);
+  background-color: white;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+  clip-path: inset(0px 0px -20px 0px);
+  position: sticky;
+  top: var(--masthead-height);
+  padding: 0 1rem;
+}
+@media (max-width: 800px) {
+  .menu-main {
+    display: none;
+  }
+}
+.menu-main .menu-hed {
+  height: 1.5rem;
+}
+.menu-main .menu-hed h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 0;
+}
+.menu-main .menu-hed.top {
+  margin-top: 0;
+}
+.menu-main .menu-section {
+  grid-column: span 2;
+  height: 100%;
+}
+.menu-main .menu-section a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu-main .menu-section .history {
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.product {
+  position: relative;
+  margin-bottom: 0.25rem;
+  transition: opacity 300ms;
+  cursor: pointer;
+}
+.product p {
+  font-weight: 300;
+}
+.product.lowlight {
+  opacity: 0.5;
+  transition: opacity 300ms;
+}
+
+.product-hed {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+.product-title {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.product-summary {
+  text-transform: uppercase;
+}
+.product-summary ol {
+  margin: 0;
+  padding: 0 1rem;
+}
+.product-summary li {
+  font-weight: 200;
+}
+
+.all-products {
+  z-index: 0;
+  position: relative;
+  margin-top: 150vh;
+}
+@media (max-width: 800px) {
+  .all-products {
+    display: none;
+    margin-top: unset;
+    padding-top: 1rem;
+  }
+}
+.all-products.grid {
+  --gutter: 0;
+}
+.all-products .product-image {
+  grid-column: span 6;
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+}
+@media (max-width: 800px) {
+  .all-products .product-image {
+    height: 50vh;
+    overflow: hidden;
+  }
+  .all-products .product-image:nth-child(odd) {
+    grid-column: 1/3;
+  }
+  .all-products .product-image:nth-child(odd) p {
+    padding: 0rem 4px 0.5rem 4px;
+  }
+  .all-products .product-image:nth-child(even) {
+    grid-column: 3/5;
+  }
+  .all-products .product-image:nth-child(even) p {
+    padding: 0rem 4px 0.5rem 4px;
+  }
+}
+.all-products .product-image figure {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.all-products .product-image figure img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.all-products .product-image .mobile-label {
+  display: none;
+  justify-content: space-between;
+  background-color: white;
+}
+@media (max-width: 800px) {
+  .all-products .product-image .mobile-label {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+  }
+}
+.all-products .product-image .mobile-label p {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.empty {
+  height: 100vh;
+  pointer-events: none;
+}
+@media (max-width: 800px) {
+  .empty {
+    height: 0vh;
+  }
+}
+
+.clone {
+  pointer-events: none;
+}
+.clone a {
+  color: black;
+  text-decoration: none;
+}
+
+.thumbnail {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc((100vw - 2rem) / 6);
+  height: calc((100vw - 2rem) / 6);
+}
+.thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 100ms opacity;
+}
+.thumbnail img.on {
+  opacity: 1;
+}
+
+.all-labels {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.label-container_outer {
+  height: 100vh;
+  z-index: 3;
+  overflow: hidden;
+  position: relative;
+}
+
+.label-container {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: calc(var(--scroll-var) - 300vh);
+}
+
+#mobile-view {
+  position: relative;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem 1rem 0rem 1rem;
+  display: none;
+  z-index: 1;
+}
+@media (max-width: 800px) {
+  #mobile-view {
+    display: flex;
+  }
+}
+#mobile-view .active {
+  text-decoration: underline;
+}
+#mobile-view p {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=vo-index.css.map */

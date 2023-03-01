@@ -35,14 +35,15 @@
   ?>
   <?= css([
     'assets/css/prism.css',
-    'assets/css/lightbox.css',
-    // 'assets/css/index.css',
     'assets/css/reset.css',
-    'assets/css/vo-index.css',
+
+    'assets/css/templates/vo-index.css',
+    'assets/css/templates/vo-masthead.css',
+    'assets/css/templates/vo-cover.css',
+    'assets/css/templates/vo-footer.css',
     '@auto'
   ]) ?>
-
-
+<?= css($page->files()->filterBy('extension', 'css')->pluck('url')) ?>
 
 
   <?php
@@ -58,7 +59,7 @@
 
 
 
-
+<?php snippet('vo-kicker') ?>
   <main class="main">
 
   <div class="masthead-container">

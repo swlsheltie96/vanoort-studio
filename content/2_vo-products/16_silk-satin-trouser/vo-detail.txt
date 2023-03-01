@@ -18,6 +18,10 @@ Price: 200
 
 ----
 
+Onesize: false
+
+----
+
 Summary: <ol><li>Silk Satin / Cotton mix</li><li>Gathered elastic waistband&nbsp;</li><li>2-pocket</li><li>White silk cording</li><li>Silk Satin / Cotton mix</li><li>Gathered elastic waistband&nbsp;</li><li>2-pocket</li><li>White silk cording</li></ol>
 
 ----
@@ -35,6 +39,10 @@ Videotoggle: false
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/k0IEbnHfh01loksB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"32e78c56-2923-4c17-b822-460358bdb2f4","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/GgjXuwPSV5ukOjBV"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"0af5f1db-90b6-4cb6-9184-3d3a5dbe3b99","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/vEmX7imQgz7OiBch"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"6bbb9dcd-bb4c-41b3-9272-0928c4df36db","isHidden":false,"type":"image"}]
+
+----
+
+Related: 
 
 ----
 

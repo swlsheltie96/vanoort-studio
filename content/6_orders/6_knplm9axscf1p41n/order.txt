@@ -1,0 +1,167 @@
+Paymentmethod: paypal
+
+----
+
+Firstname: shannon
+
+----
+
+Lastname: lkjdsf
+
+----
+
+Address1: sdfsdf
+
+----
+
+Address2: sdfsdf
+
+----
+
+State: CT
+
+----
+
+City: sdfsdf
+
+----
+
+Zipcode: sdfsdf
+
+----
+
+Phone: sdfsdf
+
+----
+
+Email: sdfsdf
+
+----
+
+Items:
+
+- 
+  key: vo-products/vanoort-h-bralettem
+  id: vo-products/vanoort-h-bralette
+  quantity: 2
+  price: 130
+  tax: 0
+  uid: vanoort-h-bralette
+  size: m
+  title: VANOORT ‘H’ BRALETTE
+  taxrate: 0
+  template: vo-detail
+  sum: 260
+  sumtax: 0
+- 
+  key: vo-products/vanoort-h-bralettel
+  id: vo-products/vanoort-h-bralette
+  quantity: 1
+  price: 130
+  tax: 0
+  uid: vanoort-h-bralette
+  size: l
+  title: VANOORT ‘H’ BRALETTE
+  taxrate: 0
+  template: vo-detail
+  sum: 130
+  sumtax: 0
+
+----
+
+Orderid: 03L515860V508400N
+
+----
+
+Redirect: https://www.sandbox.paypal.com/checkoutnow?token=03L515860V508400N
+
+----
+
+Paymentdetails:
+
+id: 03L515860V508400N
+status: COMPLETED
+payment_source:
+  paypal:
+    email_address: sb-c0nzj22769141@personal.example.com
+    account_id: DBDJSRFZMA8WC
+    name:
+      given_name: John
+      surname: Doe
+    address:
+      country_code: US
+purchase_units:
+  - 
+    reference_id: default
+    payments:
+      captures:
+        - 
+          id: 0LK87699X90078745
+          status: COMPLETED
+          amount:
+            currency_code: USD
+            value: "390.00"
+          final_capture: true
+          seller_protection:
+            status: ELIGIBLE
+            dispute_categories:
+              - ITEM_NOT_RECEIVED
+              - UNAUTHORIZED_TRANSACTION
+          seller_receivable_breakdown:
+            gross_amount:
+              currency_code: USD
+              value: "390.00"
+            paypal_fee:
+              currency_code: USD
+              value: "14.10"
+            net_amount:
+              currency_code: USD
+              value: "375.90"
+          links:
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/payments/captures/0LK87699X90078745
+              rel: self
+              method: GET
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/payments/captures/0LK87699X90078745/refund
+              rel: refund
+              method: POST
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/checkout/orders/03L515860V508400N
+              rel: up
+              method: GET
+          create_time: 2023-01-30T22:14:35Z
+          update_time: 2023-01-30T22:14:35Z
+payer:
+  name:
+    given_name: John
+    surname: Doe
+  email_address: sb-c0nzj22769141@personal.example.com
+  payer_id: DBDJSRFZMA8WC
+  address:
+    country_code: US
+links:
+  - 
+    href: >
+      https://api.sandbox.paypal.com/v2/checkout/orders/03L515860V508400N
+    rel: self
+    method: GET
+
+----
+
+Paymentcomplete: true
+
+----
+
+Paiddate: 2023-01-30T22:14:35+00:00
+
+----
+
+Invoicedate: 2023-01-30T22:14:35+00:00
+
+----
+
+Uuid: MnI2hUboSfYw69zo

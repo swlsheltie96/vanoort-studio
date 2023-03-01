@@ -18,11 +18,15 @@ Price: 130
 
 ----
 
+Onesize: true
+
+----
+
 Summary: <ol><li>Rear hook-and-eye fastening</li><li>Fits true to size</li><li>Straight Hem</li><li>100% Cotton&nbsp;</li></ol>
 
 ----
 
-Text: [{"content":{"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat odio vel odio vestibulum posuere. Vivamus vehicula turpis et blandit semper. Duis sit amet viverra quam.<\/p>"},"id":"513c7a24-37c7-48e8-a4c3-440dcfdd4eab","isHidden":false,"type":"text"},{"content":{"text":"<p>Loose fit t-shirt with subtle photographs stitched into front right panel. <br><br>Made in NYC.<\/p>"},"id":"81549830-603f-420c-9714-62075d05facc","isHidden":false,"type":"text"},{"content":{"text":"<p>This item is made to order. Will take 2-3 weeks to ship.<\/p>"},"id":"1835b3ba-5dd2-48c8-9d91-57bd672d53a1","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p>This item is made to order.<\/p>"},"id":"c18cbc7f-c378-47d4-b613-4416917bfaf1","isHidden":false,"type":"text"},{"content":{"text":"<p>Loose fit t-shirt with subtle photographs stitched into front right panel. <\/p>"},"id":"81549830-603f-420c-9714-62075d05facc","isHidden":false,"type":"text"},{"content":{"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat odio vel odio vestibulum posuere. Vivamus vehicula turpis et blandit semper. Duis sit amet viverra quam. Made in NYC.<\/p>"},"id":"1835b3ba-5dd2-48c8-9d91-57bd672d53a1","isHidden":false,"type":"text"}]
 
 ----
 
@@ -35,6 +39,19 @@ Videotoggle: true
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/gzg57k1wEUljwBUC"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"ef363afb-5e86-4570-b4ee-f64a16d8f91e","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/aZCNuw5NlkBVK0T8","file:\/\/mVEBxhq9w49dcsRk"],"caption":"","ratio":"","crop":"false"},"id":"ed02ee0f-679c-4257-a920-c615c52ddcf0","isHidden":false,"type":"gallery"},{"content":{"images":["file:\/\/5LBgDHKwLkBMIphH","file:\/\/2iV7qEMDSBviQ2BU"],"caption":"","ratio":"","crop":"false"},"id":"88933746-8b25-4d60-bfec-bc179b2ec083","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/ENMtqJLvWY3U6AKR"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e751dd87-197d-4682-af73-9f9ddf0da03d","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/RjQnvFpPtSKaFLUB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a607a3c5-333a-4447-8f9a-1011a225e0e7","isHidden":false,"type":"image"}]
+
+----
+
+Related:
+
+- page://p2dMJ9b90PL2dj5C
+- page://aut4Vb4KnyRzpMxO
+- page://SFAOGH89BnzJPaIs
+- page://YmK2RUwdYAICOyvd
+
+----
+
+One-size: true
 
 ----
 

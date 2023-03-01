@@ -2,11 +2,60 @@ Title: Van Oort Studio
 
 ----
 
-Top-logo: - logo-main.svg
+Cover:
+
+- file://Ro4rS4WqE3rDuDL7
+- file://SKiUkkKo1IGL0hHv
+- file://RPrdn1dFlYjWk9dq
+- file://Ox9oLS3BjSkHhCzb
+- file://9K74TzgBoaEI1BjG
+- file://isv9gyohDbGa3kCy
+- file://CIK767ks9UYKuGlj
+- file://m0JJhiK3ISk414ZM
+- file://WOeG5eiOdc1r6zzk
 
 ----
 
-Footer-logo: - logo-floral.svg
+Masthead: - file://cXwbeCN1Ty1FpccL
+
+----
+
+Mobilemasthead: - file://7iEmluoMryyAmdsm
+
+----
+
+Footer: - file://tITwCxFD5bq0LLx5
+
+----
+
+Cart: - file://zJqUWlABFe3EmgHp
+
+----
+
+Illustrations:
+
+- file://O0CdmIvHiUgv9wxn
+- file://zWoCnUjJgnArqePx
+- file://yv9itSLwWH5lPGUb
+- file://TGxz3XrBjpJqtcOT
+- file://miEUXmvf1pQq8KkX
+- file://2Grxl2wtEYPsazU3
+- file://53qxW3FegxyOD8cG
+- file://gUlqzWlzHtCsdPJM
+- file://ivgXUqz4MOtgCJP9
+- file://mm2gF1u5Og9cOprX
+- file://9eperq3ERcbgrIDm
+- file://hswjii3BP0MYldtL
+- file://jStSPecxdQjRZ44w
+- file://jiMTv7PDy3r5s10r
+- file://AcYMJJg1DnYm1UFa
+- file://ZLGDPYtKHXqc0xrM
+- file://dUpl05VKmbvvC2Au
+- file://nznhxgJs6zIPVUfs
+
+----
+
+Mobile-masthead: - file://7iEmluoMryyAmdsm
 
 ----
 

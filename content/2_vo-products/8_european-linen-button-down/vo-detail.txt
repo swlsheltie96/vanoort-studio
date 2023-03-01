@@ -18,6 +18,10 @@ Price: 135
 
 ----
 
+Onesize: false
+
+----
+
 Summary: <ol><li>100% Linen</li><li>Screen printed graphics</li><li>All Imperfection are unique to original fabric&nbsp;</li><li>Slightly Oversized fit&nbsp;</li><li>Long sleeved&nbsp;</li></ol>
 
 ----
@@ -35,6 +39,10 @@ Videotoggle: false
 ----
 
 Imgs: [{"content":{"location":"kirby","image":["file:\/\/jEDHr0SZxjNY5Rzy"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"58a14386-c87f-4c30-9853-3d40a1b8c81f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/3TNjIQIvbd93Hb35"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"d1f93ad3-cb69-453a-aff7-7621b99efc24","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/uUIkQy8GfU93UBlQ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"36b5c092-5ced-41cb-9075-dc7f31325c93","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/ll18K5V5K6B6jkjF"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"89fcaab2-da9d-4309-8b46-1e13ef9809bc","isHidden":false,"type":"image"}]
+
+----
+
+Related: 
 
 ----
 
