@@ -2,11 +2,11 @@ Title: DUTCH HIGH WAISTED VOLENDAM PANT
 
 ----
 
-Cover: - file://XCA91neF0sTBqd2A
+Cover: - file://xKap8NOfZto6O3US
 
 ----
 
-Thumbnail: - file://XCA91neF0sTBqd2A
+Thumbnail: - file://xKap8NOfZto6O3US
 
 ----
 
@@ -14,15 +14,19 @@ Productid: 125
 
 ----
 
-Price: 400
+Price: 500
 
 ----
 
-Summary: <ol><li>Made from Wool with a Cotton lining</li><li>Wide leg&nbsp;</li><li>2-pocket</li><li>White side and back lining</li><li>Button closure</li></ol>
+Onesize: false
 
 ----
 
-Text: 
+Summary: <ol><li>Made from Wool with a Cotton lining</li><li>Wide leg&nbsp;// high waisted</li><li>2-pocket</li><li>White side and back lining</li><li>Button closure</li></ol>
+
+----
+
+Text: [{"content":{"text":"<p>MAde in Ny<\/p>"},"id":"5c931554-ead2-4edc-b7cd-3f90355e09f1","isHidden":false,"type":"text"},{"content":{"text":"<p>This item is MADE-to-order <\/p><p>PLease allow up to 2-3 weeks to ship<\/p>"},"id":"d358ec91-0856-437c-9ec1-682ced659315","isHidden":false,"type":"text"},{"content":{"text":"<p>dry clean only<\/p>"},"id":"78a26ef6-180d-478a-8037-209dacbba5c5","isHidden":false,"type":"text"}]
 
 ----
 
@@ -34,7 +38,7 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/yxjTsFQFvtUT0bm0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"420f2df2-291c-4815-8a9c-223031b69ea0","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/HnqTPk48AI2zQXSY"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"47c12584-ad4f-4f69-822b-2446354c150f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/uVkkykuIpMFhzDZb"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"55909119-4931-4412-a76f-28af17d7f1fa","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/XzpHkP3kHL5DPnDm","file:\/\/Kv3nHdvZv5eerIJX"],"caption":"","ratio":"","crop":"false"},"id":"3ae1bf56-7c05-458c-9b09-db825ba0177f","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/D4Gbx1C2LH9zHQZv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4fcbd02e-344f-4646-8ff8-e4c0a3a69c79","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/9Srt0p462kG4YafN"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"420f2df2-291c-4815-8a9c-223031b69ea0","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/mwCYGD5giKJVW03j","file:\/\/Y0deC7YKErsPATs3"],"caption":"","ratio":"","crop":"false"},"id":"3ae1bf56-7c05-458c-9b09-db825ba0177f","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/V36fEEN45nGdXqXF"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"47c12584-ad4f-4f69-822b-2446354c150f","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/xKap8NOfZto6O3US","file:\/\/dTYjPx5qVyRP6tUz"],"caption":"","ratio":"","crop":"false"},"id":"279d5a36-4f85-4f99-8beb-0dcfae312a6a","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/GnkssjsaUxZXmHXk"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"55909119-4931-4412-a76f-28af17d7f1fa","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/gF6V1G7qO3B1v7cS"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4fcbd02e-344f-4646-8ff8-e4c0a3a69c79","isHidden":false,"type":"image"}]
 
 ----
 

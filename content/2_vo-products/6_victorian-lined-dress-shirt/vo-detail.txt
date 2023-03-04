@@ -2,11 +2,11 @@ Title: VICTORIAN LINED DRESS SHIRT
 
 ----
 
-Cover: - file://vIyp70HxQ6HIayBd
+Cover: - file://lhB7rL2JQ5hCjLEn
 
 ----
 
-Thumbnail: - file://vIyp70HxQ6HIayBd
+Thumbnail: - file://lhB7rL2JQ5hCjLEn
 
 ----
 
@@ -14,19 +14,19 @@ Productid: victorian-lined-dress-shirt
 
 ----
 
-Price: 125
+Price: 355
 
 ----
 
-Onesize: false
+Onesize: true
 
 ----
 
-Summary: <ol><li>Oversized “puffy” sleeves</li><li>Back button up&nbsp;</li><li>Straight hem&nbsp;</li><li>Fits true to size&nbsp;</li></ol>
+Summary: <ol><li>Oversized “puffy” sleeves</li><li>Back button up&nbsp;to collar</li><li>Straight hem&nbsp;</li><li>black pinstripe on white cotton</li><li>buttoned cuffs</li></ol>
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>Made in NY <\/p>"},"id":"d5c3f6b5-ca85-48d7-8e36-6f7e0f84043a","isHidden":false,"type":"text"},{"content":{"text":"<p>This Is a ONE OF A KIND. Please allow up to two to a week for shipping. <\/p>"},"id":"0c831b9c-2273-47b1-8694-1dbbe2fdfe7a","isHidden":false,"type":"text"},{"content":{"text":"<p>model is 5'8 and is wearing a size M <\/p>"},"id":"0db4c657-5f98-44e0-af87-08121364ed94","isHidden":false,"type":"text"},{"content":{"text":"<p>dry clean only <\/p>"},"id":"3719ac7b-b55f-4c5f-94f2-a812c5eae59f","isHidden":false,"type":"text"}]
 
 ----
 
@@ -38,11 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/gin74xzyBaGg5ouG"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"da5fd46d-cc7b-49d2-938c-1d2980b45ee8","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/werHMvmF5EvpLqYA"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4f7cc652-926f-4678-9f63-31b397a24b4a","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/6hEtdg68CUkVWicS"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b12d40ec-0abf-4e42-93ce-d2150ba58417","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/j2jfPt4wXoLMU12r"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2b8d98b2-da54-4548-80e3-4d6841e1f39b","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/gin74xzyBaGg5ouG"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"da5fd46d-cc7b-49d2-938c-1d2980b45ee8","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/8tjmbsB4NaMIeaX1","file:\/\/vIyp70HxQ6HIayBd"],"caption":"","ratio":"","crop":"false"},"id":"b141da75-49f8-4742-879d-005918539225","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/j2jfPt4wXoLMU12r"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2b8d98b2-da54-4548-80e3-4d6841e1f39b","isHidden":false,"type":"image"}]
 
 ----
 
-Related: 
+Related:
+
+- page://SVDz3SRrHrtNKU5g
+- page://MEGaSmdFaybsMTLr
+- page://D83jBe5RTpKFjOlj
+- page://p2dMJ9b90PL2dj5C
 
 ----
 

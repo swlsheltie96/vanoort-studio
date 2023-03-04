@@ -1,0 +1,70 @@
+Title: LONG SLEEVE POINTED MISS WESTERN SHIRT
+
+----
+
+Cover: - file://sfbEWNqenCTgDFPu
+
+----
+
+Thumbnail: - file://raKUxD5NQsCECX6K
+
+----
+
+Productid: long-sleeve-pointed-miss-western-shirt
+
+----
+
+Price: 340
+
+----
+
+Onesize: false
+
+----
+
+Summary: <ol><li>Cotton with silk lining&nbsp;</li><li>Double buttoned cuffs&nbsp;</li><li>Seamless top paneling</li><li>front button fastening</li><li>straight Hem</li><li>classic collar</li></ol>
+
+----
+
+Text: [{"content":{"text":"<p>Made in NY<\/p>"},"id":"1137b15f-c47c-4c3f-b263-18ff62b0f2ef","isHidden":false,"type":"text"},{"content":{"text":"<p>This Item is Made-to-order. Please allow up to two to three weeks to ship<\/p>"},"id":"fc563cdc-2e2d-4ca2-aaa8-94a35b17a763","isHidden":false,"type":"text"},{"content":{"text":"<p>model is 5'9 and is wearing a size large<\/p>"},"id":"d9174358-f689-4960-bf76-6233c9635d39","isHidden":false,"type":"text"}]
+
+----
+
+Tags: Tops
+
+----
+
+Videotoggle: true
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/8RFxllfwvew8E8w4"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"5934a3da-90fb-4a1f-97cf-2f49b77a609e","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/uK3wVOTH8Yy7sUms","file:\/\/jtOKeQ76EyQRgdDz"],"caption":"","ratio":"","crop":"false"},"id":"0e0e5fd8-a610-4ba9-be9c-fac36ac7161b","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/C76G8gJNFsqaGjRv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"ebe74688-3646-4546-939c-03dec3b0c911","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/BBnIWcCniTzwyICA"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"d92c260c-4042-46dd-942c-40497df86a0f","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/sfbEWNqenCTgDFPu","file:\/\/kn6gJynrZvqSGDTB"],"caption":"","ratio":"","crop":"false"},"id":"368adb83-0434-4781-ba87-a2b8f17d26d5","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/5KwO156QeY94hufc"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"083b59d9-a721-4eda-b0dd-0539abb190bb","isHidden":false,"type":"image"}]
+
+----
+
+Related:
+
+- page://PcBUllfzc9bCX2nN
+- page://SVDz3SRrHrtNKU5g
+- page://t9i91IFS4GkprS26
+- page://M7i8xyc7F8UUI6pa
+
+----
+
+Headline: LONG SLEEVE POINTED MISS WESTERN SHIRT
+
+----
+
+Main: 
+
+----
+
+Categories: Tops
+
+----
+
+Subheadline: 
+
+----
+
+Uuid: D83jBe5RTpKFjOlj

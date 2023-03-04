@@ -2,7 +2,7 @@ Title: Zine
 
 ----
 
-Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file:\/\/YBXAp4KF32UK1KfE","file:\/\/E2A9rH0ih2BgLHpq","file:\/\/6tIuZdpvBMLZxOVD","file:\/\/yM0KTfLsQGaWyQWh","file:\/\/jtSD6kdknB6JByXe","file:\/\/C4UV0DRAmAnqjY00"],"caption":"","ratio":"","crop":"false"},"id":"85291055-cdf7-45ce-8450-514a9ad98bb8","isHidden":false,"type":"gallery"}],"id":"0e68f6ee-587a-4c80-927f-b329ed460433","width":"1\/1"}],"id":"6c8a6135-c951-40f3-bdba-3b35eaec9035"}]
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":[],"caption":"","ratio":"","crop":"false"},"id":"313aeafe-bf10-48b7-ba8e-c015e641fc3b","isHidden":false,"type":"gallery"}],"id":"6542dcb4-7b5d-4f5b-a41c-930a60b9eb65","width":"1\/1"}],"id":"a20f9ce0-8c29-48d9-af09-7dc10573f87f"}]
 
 ----
 

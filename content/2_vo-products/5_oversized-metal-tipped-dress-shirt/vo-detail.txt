@@ -2,11 +2,11 @@ Title: OVERSIZED METAL TIPPED DRESS SHIRT
 
 ----
 
-Cover: - file://7Z6alre3Xa5uCpt6
+Cover: - file://jaPj2oxc9a1Anh8x
 
 ----
 
-Thumbnail: - file://7Z6alre3Xa5uCpt6
+Thumbnail: - file://fJPsRrdJ8dCJzcZL
 
 ----
 
@@ -14,7 +14,7 @@ Productid: oversized-metal-tipped-dress-shirt
 
 ----
 
-Price: 200
+Price: 350
 
 ----
 
@@ -22,11 +22,11 @@ Onesize: false
 
 ----
 
-Summary: <ol><li>100% COTTON&nbsp;</li><li>Western style hem&nbsp;</li><li>Loose fit&nbsp;</li><li>Metal Tipped collars</li></ol>
+Summary: <ol><li>100% COTTON&nbsp;Denim</li><li>Western style hem&nbsp;</li><li>Loose fit&nbsp;</li><li>Metal Tipped collars</li><li>double breast pocket</li></ol>
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>Made in NY<\/p>"},"id":"c551aa32-4db2-439f-bd93-a67edce1b6fa","isHidden":false,"type":"text"},{"content":{"text":"<p>This item is Made-to-Order. Please allow up to two to three weeks to ship.<\/p>"},"id":"67b0f7ac-cf25-4ca6-9b70-c5f94fc833e3","isHidden":false,"type":"text"},{"content":{"text":"<p>Model is 5'11 and is wearing an XL<\/p>"},"id":"33872258-439d-45c3-beb3-62e1e12e7143","isHidden":false,"type":"text"}]
 
 ----
 
@@ -38,11 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/O8ZXWXTJFVC9rKav"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e8f7abb6-c9af-407a-90b5-5490f99c8ce9","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/5mf4iKBXRRrWRmBB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"9bc7826d-a52c-44a3-90ab-b773d4bda0ab","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/lklqorkEupoOpCUT"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"02c141a5-903d-4da3-aa37-4ec81971022f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/MhLM0j311vTrdI2A"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"88f1472d-f112-4da9-af52-74b867896eea","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"images":["file:\/\/fJPsRrdJ8dCJzcZL","file:\/\/KDSWAL7onKhRmNDH"],"caption":"","ratio":"","crop":"false"},"id":"2c1991ac-95e6-491d-b4a9-b189961fd980","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/lklqorkEupoOpCUT"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"02c141a5-903d-4da3-aa37-4ec81971022f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/5mf4iKBXRRrWRmBB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"9bc7826d-a52c-44a3-90ab-b773d4bda0ab","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/MhLM0j311vTrdI2A"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"88f1472d-f112-4da9-af52-74b867896eea","isHidden":false,"type":"image"}]
 
 ----
 
-Related: 
+Related:
+
+- page://cxS3aFwhVm6hwnc3
+- page://LNFfQqJ5YMhrZCWC
+- page://D83jBe5RTpKFjOlj
+- page://aut4Vb4KnyRzpMxO
 
 ----
 

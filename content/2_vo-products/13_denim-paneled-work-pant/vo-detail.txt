@@ -2,11 +2,11 @@ Title: DENIM PANELED WORK PANT
 
 ----
 
-Cover: - file://TQxTOucqJlzf7PG4
+Cover: - file://JWpb9TEQlnXaNVa3
 
 ----
 
-Thumbnail: - file://TQxTOucqJlzf7PG4
+Thumbnail: - file://JWpb9TEQlnXaNVa3
 
 ----
 
@@ -14,11 +14,11 @@ Productid: denim-paneled-work-pant
 
 ----
 
-Price: 145
+Price: 500
 
 ----
 
-Onesize: true
+Onesize: false
 
 ----
 
@@ -26,7 +26,7 @@ Summary: <ol><li>100% denim&nbsp;</li><li>Straight Leg Loose fit&nbsp;</li><li>4
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>Made in Ny.<\/p>"},"id":"7609eb24-261b-4f06-9def-3e1d8853d4ae","isHidden":false,"type":"text"},{"content":{"text":"<p>this item is made-to-order.<\/p>"},"id":"5e327e74-2156-4cd9-b8b0-ca3ba85b999b","isHidden":false,"type":"text"},{"content":{"text":"<p>please allow up to 2-3 weeks to ship.<\/p>"},"id":"8a8d9bdd-d49b-4ce4-a9dc-40245284ecfa","isHidden":false,"type":"text"}]
 
 ----
 
@@ -38,11 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/lxf5KD8KVMascupN"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"5d93515c-6381-46b2-b275-677c4aceef0e","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/qo1AKU4Vk7bAjoa9"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"08835850-8858-4b34-8227-0bf34dbc0558","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/fuwvEbw9EniIm1XX"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8f60affc-be04-497d-a465-ff92373d9260","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/ma8HWW05hmaNcvsg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"5d93515c-6381-46b2-b275-677c4aceef0e","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/KjfPUn5W0OpYAYZq"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"08835850-8858-4b34-8227-0bf34dbc0558","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/jvflH4KxyuYR4yj4"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8f60affc-be04-497d-a465-ff92373d9260","isHidden":false,"type":"image"}]
 
 ----
 
-Related: 
+Related:
+
+- page://LNFfQqJ5YMhrZCWC
+- page://D83jBe5RTpKFjOlj
+- page://cxS3aFwhVm6hwnc3
+- page://p2dMJ9b90PL2dj5C
 
 ----
 

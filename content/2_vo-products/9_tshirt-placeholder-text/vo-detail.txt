@@ -1,0 +1,82 @@
+Title: FRENCH FROMAGE TSHIRT
+
+----
+
+Cover: - file://g96d1pg5eD6l95nf
+
+----
+
+Thumbnail: - file://g96d1pg5eD6l95nf
+
+----
+
+Productid: french-fromage-tshirt
+
+----
+
+Price: 250
+
+----
+
+Onesize: false
+
+----
+
+Summary: <ol><li>100% pre-shrunk heavyweight cotton&nbsp;</li><li>Boxy fit&nbsp;</li><li>Vintage Parisian Tea towel&nbsp;</li><li>Rib knit crew neck&nbsp;</li><li>Short Sleeve</li></ol>
+
+----
+
+Text: [{"content":{"text":"<p>Made in Ny<\/p>"},"id":"f2607fd5-5fd0-4220-975d-544f5e720821","isHidden":false,"type":"text"},{"content":{"text":"<p>This item is ONE-OF-A-KIND. Dry CLEAN ONLY<\/p>"},"id":"5ab2de00-f00c-4a4f-87f2-ce0fd1c402e5","isHidden":false,"type":"text"},{"content":{"text":"<p>Model is 6 foot tall and is wearing a 1-of-1 SIZE XL.<\/p>"},"id":"0c3970d7-19a2-4b9a-8a41-109d89c9ed2f","isHidden":false,"type":"text"}]
+
+----
+
+Tags: Tops
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"images":["file:\/\/g96d1pg5eD6l95nf","file:\/\/vcNToGbYehVxz5tV"],"caption":"","ratio":"","crop":"false"},"id":"c8ae461c-e577-4568-8744-33286b165181","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/44DEHhEpZz702pGB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1297b42c-a7ea-45e6-a6e5-5b5225011b25","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/yYv9hjm62CpuLKwv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8fdc9e10-f652-4b3a-a0d9-b7b804fa3ba8","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/ETqKIT9bzxJTNRgt"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8913d04b-c306-4913-b9c2-1aff35b9eaa9","isHidden":false,"type":"image"}]
+
+----
+
+Related:
+
+- page://cxS3aFwhVm6hwnc3
+- page://aut4Vb4KnyRzpMxO
+- page://M7i8xyc7F8UUI6pa
+- page://LNFfQqJ5YMhrZCWC
+
+----
+
+Headline: FRENCH FROMAGE TSHIRT
+
+----
+
+Main: 
+
+----
+
+Productname: FRENCH FROMAGE TSHIRT
+
+----
+
+Productprice: 100
+
+----
+
+Productdescription: lorem ipsum
+
+----
+
+Productimage: - t-shirt.jpeg
+
+----
+
+Categories: Tops
+
+----
+
+Uuid: KBjKf2HklnR2eguL

@@ -1,0 +1,66 @@
+Title: OVERSIZED METAL TIPPED  SHIRT
+
+----
+
+Cover: - file://gruyi2OoGvNdDXTo
+
+----
+
+Thumbnail: - file://DK4R4IXgZROUJZOA
+
+----
+
+Productid: oversized-metal-tipped-shirt
+
+----
+
+Price: 300
+
+----
+
+Onesize: false
+
+----
+
+Summary: <ol><li>100% crisp white cotton&nbsp;</li><li>Western style hem&nbsp;</li><li>front button fastening</li><li>oversized fit&nbsp;</li><li>Metal Tipped collars</li><li>buttoned cuffs</li></ol>
+
+----
+
+Text: [{"content":{"text":"<p>Made in NY<\/p>"},"id":"1cbf6913-0b12-4710-b0a9-5e3650c15e40","isHidden":false,"type":"text"},{"content":{"text":"<p>This item is Made-To-Order. please allow up to 2-3 weeks to ship <\/p>"},"id":"7c0ffdf3-15e8-45d3-a321-368fbec0ef4a","isHidden":false,"type":"text"},{"content":{"text":"<p>model is 5'11 and is wearing a size XL <\/p>"},"id":"15cff5c6-25f5-425d-8202-41f3e7042690","isHidden":false,"type":"text"}]
+
+----
+
+Tags: Tops
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/NLEtd9HQgrhs238J"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4c1967a3-3e49-4c2f-9010-d1bb2811289e","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/gruyi2OoGvNdDXTo","file:\/\/dokBm1w3gQAGin2I"],"caption":"","ratio":"","crop":"false"},"id":"1727ade9-133d-4c74-9bf0-347ad2bbcdae","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/aMgUhPrXqo4ZusOK"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"44439bcb-c964-4ade-ad87-33abccf54f95","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/cQYPqI8kfsTE6CjQ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1aa4148b-e2ea-4e18-8980-a6465f57c61d","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/hNoWidBPjs5srrFE"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"24b4e203-5450-4f29-809f-e4646e17f6aa","isHidden":false,"type":"image"}]
+
+----
+
+Related:
+
+- page://KBjKf2HklnR2eguL
+- page://aut4Vb4KnyRzpMxO
+- page://M7i8xyc7F8UUI6pa
+- page://SFAOGH89BnzJPaIs
+
+----
+
+Headline: OVERSIZED METAL TIPPED  SHIRT
+
+----
+
+Main: 
+
+----
+
+Categories: Tops
+
+----
+
+Uuid: 1YIX3aIgXUWdYXKb

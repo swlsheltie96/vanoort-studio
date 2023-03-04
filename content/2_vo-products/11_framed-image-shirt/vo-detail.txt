@@ -2,11 +2,11 @@ Title: FRAMED IMAGE SHIRT
 
 ----
 
-Cover: - file://imocYv3lXxIh25Ac
+Cover: - file://dCcOASaKXHMt7kSK
 
 ----
 
-Thumbnail: - file://gnIKs74TrTzg29Nm
+Thumbnail: - file://hklYfTIzHLiCgZjo
 
 ----
 
@@ -14,7 +14,7 @@ Productid: framed-image-shirt
 
 ----
 
-Price: 70
+Price: 350
 
 ----
 
@@ -26,7 +26,7 @@ Summary: <ol><li>Double layered organza</li><li>Image sewn in between layers at 
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>MAde in ny <\/p>"},"id":"d9f4bf18-f74a-4e47-b3be-4f7fffd27b44","isHidden":false,"type":"text"},{"content":{"text":"<p>THIS ITEM IS ONE-of-a-kind<\/p><p>size xl<\/p>"},"id":"ad50c9a0-97cd-46e4-afca-a3f137bdf50e","isHidden":false,"type":"text"},{"content":{"text":"<p>DRY CLEAN ONLY <\/p>"},"id":"c58d90fc-1171-4cdb-bf57-a87f204eb7ce","isHidden":false,"type":"text"}]
 
 ----
 
@@ -38,11 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/AWjZOzTsDXQT6B6j"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"005dd009-a693-49be-9172-939814955fce","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/qM5hYKrOWHr85EDv","file:\/\/rRIox9JYULotO6dx"],"caption":"","ratio":"","crop":"false"},"id":"9596e4e5-9d56-4bc3-a986-eb6aaf74b1c3","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/CODLvhoHCme65uMW"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bb239cba-5bc3-4058-8bb8-69a36147baf1","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/2zxXtU8D5sIcqth0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"005dd009-a693-49be-9172-939814955fce","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/dCcOASaKXHMt7kSK","file:\/\/N6N4dTKlvo2ZAAXm"],"caption":"","ratio":"","crop":"false"},"id":"9596e4e5-9d56-4bc3-a986-eb6aaf74b1c3","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/jN5ijHomQQpsP0SP"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bb239cba-5bc3-4058-8bb8-69a36147baf1","isHidden":false,"type":"image"}]
 
 ----
 
-Related: 
+Related:
+
+- page://PFpdh92Wjp89hOEe
+- page://KBjKf2HklnR2eguL
+- page://M7i8xyc7F8UUI6pa
+- page://LNFfQqJ5YMhrZCWC
 
 ----
 

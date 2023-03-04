@@ -2,11 +2,11 @@ Title: WHITE SILK SATIN FORMAL PANT
 
 ----
 
-Cover: - file://5T8UEAW79ettknOD
+Cover: - file://BRGHMYawPXC8JSao
 
 ----
 
-Thumbnail: - file://5T8UEAW79ettknOD
+Thumbnail: - file://BRGHMYawPXC8JSao
 
 ----
 
@@ -14,7 +14,11 @@ Productid: 325
 
 ----
 
-Price: 200
+Price: 450
+
+----
+
+Onesize: true
 
 ----
 
@@ -22,7 +26,7 @@ Summary: <ol><li>Loose fit</li><li>Cotton with silk lining&nbsp;</li><li>Double 
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>MAde in NY<\/p>"},"id":"6d2dc546-234e-402e-873b-cf9c25ae969b","isHidden":false,"type":"text"},{"content":{"text":"<p>this item is one-of-a-kind <\/p>"},"id":"2124a09b-fade-4c1f-8fa3-8a03001b03ef","isHidden":false,"type":"text"}]
 
 ----
 
@@ -34,7 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/ceuK26DHwJPl0hYB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"80ac89b9-86ed-431e-9e0b-c9bdd7c02c84","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/DkhdGA9CPDeisWUW"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"651b9bd1-d7f4-47a6-9ec1-0e43a3465d7b","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/ZMy0EizmIgHxXip0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"80ac89b9-86ed-431e-9e0b-c9bdd7c02c84","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/rcAZuIzrRtwK9m9e","file:\/\/GXNzpwPbnLLoro8A"],"caption":"","ratio":"","crop":"false"},"id":"d9645878-2f05-43f6-bbf8-fb374cc4f476","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/sSSKURu8TzikutFK"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"651b9bd1-d7f4-47a6-9ec1-0e43a3465d7b","isHidden":false,"type":"image"}]
+
+----
+
+Related:
+
+- page://gU0wOYLOdcIriPev
+- page://KBjKf2HklnR2eguL
+- page://SVDz3SRrHrtNKU5g
+- page://PFpdh92Wjp89hOEe
 
 ----
 

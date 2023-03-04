@@ -1,0 +1,66 @@
+Title: CALENDAR TEA TOWEL PANT
+
+----
+
+Cover: - file://xesPMwohxKumPraN
+
+----
+
+Thumbnail: 
+
+----
+
+Productid: bottoms-2
+
+----
+
+Price: 125
+
+----
+
+Onesize: true
+
+----
+
+Summary: <ol><li>Linen calendar outside</li><li>Breathable silk inner lining</li><li>Straight Leg</li><li>32 waist&nbsp;&nbsp;</li><li>2-pocket</li></ol>
+
+----
+
+Text: [{"content":{"text":"<p>made in NY<\/p>"},"id":"4e711039-cb1e-47d6-9f70-55612c1325a6","isHidden":false,"type":"text"},{"content":{"text":"<p>this item is one-of-a-kind<\/p>"},"id":"b60cdac4-f36a-428c-901e-859036394361","isHidden":false,"type":"text"},{"content":{"text":"<p>DRY CLEANING ONLY<\/p>"},"id":"b835eb15-f65a-4f87-a4d3-0e3c0d799a3e","isHidden":false,"type":"text"}]
+
+----
+
+Tags: Bottoms
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/V1GKGkXSQWe1duUb"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"abcda19b-18ba-4d3e-b797-1325a7aa7f78","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/sssNHM5TbCfxJBUg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"c65855f2-b110-45f6-a99e-1dc1b4fb464f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/cbaJmNosEmbF2WwH"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fcbc2949-5368-4789-a55a-f9f1b22e0b11","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/XqlgW8bAwYhMokgt"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bb88d73b-fbaf-4e35-8f3e-59e9e8840db9","isHidden":false,"type":"image"}]
+
+----
+
+Related:
+
+- page://aut4Vb4KnyRzpMxO
+- page://M7i8xyc7F8UUI6pa
+- page://KBjKf2HklnR2eguL
+- page://PFpdh92Wjp89hOEe
+
+----
+
+Headline: BOTTOMS 2
+
+----
+
+Main: 
+
+----
+
+Categories: Bottoms
+
+----
+
+Uuid: YmK2RUwdYAICOyvd

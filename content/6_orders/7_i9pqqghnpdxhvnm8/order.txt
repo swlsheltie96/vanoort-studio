@@ -1,0 +1,156 @@
+Firstname: shannon
+
+----
+
+Lastname: lin
+
+----
+
+Address1: 347 e 6th st
+
+----
+
+Address2: 3a
+
+----
+
+State: DC
+
+----
+
+City: new york
+
+----
+
+Zipcode: 10003
+
+----
+
+Phone: 5105054915
+
+----
+
+Email: shannon.w.lin424@gmail.com
+
+----
+
+Paymentmethod: paypal
+
+----
+
+Items:
+
+- 
+  key: >
+    vo-products/long-sleeve-pointed-miss-western-shirts
+  id: >
+    vo-products/long-sleeve-pointed-miss-western-shirt
+  quantity: 1
+  price: 90
+  tax: 0
+  uid: long-sleeve-pointed-miss-western-shirt
+  size: s
+  title: LONG SLEEVE POINTED MISS WESTERN SHIRT
+  taxrate: 0
+  template: vo-detail
+  sum: 90
+  sumtax: 0
+
+----
+
+Orderid: 4C666623BR291153S
+
+----
+
+Redirect: https://www.sandbox.paypal.com/checkoutnow?token=4C666623BR291153S
+
+----
+
+Paymentdetails:
+
+id: 4C666623BR291153S
+status: COMPLETED
+payment_source:
+  paypal:
+    email_address: sb-c0nzj22769141@personal.example.com
+    account_id: DBDJSRFZMA8WC
+    name:
+      given_name: John
+      surname: Doe
+    address:
+      country_code: US
+purchase_units:
+  - 
+    reference_id: default
+    payments:
+      captures:
+        - 
+          id: 2LT14101LK118581E
+          status: COMPLETED
+          amount:
+            currency_code: USD
+            value: "90.00"
+          final_capture: true
+          seller_protection:
+            status: ELIGIBLE
+            dispute_categories:
+              - ITEM_NOT_RECEIVED
+              - UNAUTHORIZED_TRANSACTION
+          seller_receivable_breakdown:
+            gross_amount:
+              currency_code: USD
+              value: "90.00"
+            paypal_fee:
+              currency_code: USD
+              value: "3.63"
+            net_amount:
+              currency_code: USD
+              value: "86.37"
+          links:
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/payments/captures/2LT14101LK118581E
+              rel: self
+              method: GET
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/payments/captures/2LT14101LK118581E/refund
+              rel: refund
+              method: POST
+            - 
+              href: >
+                https://api.sandbox.paypal.com/v2/checkout/orders/4C666623BR291153S
+              rel: up
+              method: GET
+          create_time: 2023-02-27T23:03:08Z
+          update_time: 2023-02-27T23:03:08Z
+payer:
+  name:
+    given_name: John
+    surname: Doe
+  email_address: sb-c0nzj22769141@personal.example.com
+  payer_id: DBDJSRFZMA8WC
+  address:
+    country_code: US
+links:
+  - 
+    href: >
+      https://api.sandbox.paypal.com/v2/checkout/orders/4C666623BR291153S
+    rel: self
+    method: GET
+
+----
+
+Paymentcomplete: true
+
+----
+
+Paiddate: 2023-02-27T15:03:09-08:00
+
+----
+
+Invoicedate: 2023-02-27T15:03:09-08:00
+
+----
+
+Uuid: TcNSij8rXxQBPcGh

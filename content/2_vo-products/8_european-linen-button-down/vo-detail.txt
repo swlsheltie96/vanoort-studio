@@ -14,11 +14,11 @@ Productid: european-linen-button-down
 
 ----
 
-Price: 135
+Price: 400
 
 ----
 
-Onesize: false
+Onesize: true
 
 ----
 
@@ -26,7 +26,7 @@ Summary: <ol><li>100% Linen</li><li>Screen printed graphics</li><li>All Imperfec
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>hand made in NY<\/p>"},"id":"d0fc79ca-45e2-48d1-b6ef-9c4828380c9c","isHidden":false,"type":"text"},{"content":{"text":"<p>THIS ONE-OF-KIND PIECE MADE FROM VINTAGE AND CUSTOM PRINTED WALL CALENDARS.<\/p>"},"id":"5d9f3e43-2daf-44d7-bfbe-b6213058c89b","isHidden":false,"type":"text"},{"content":{"text":"<p>size XL<\/p>"},"id":"c293ee0f-5297-471c-8d09-829d80c5fe1b","isHidden":false,"type":"text"},{"content":{"text":"<p>Dry clean ONLY<\/p>"},"id":"6b246b78-e719-4828-95e0-6a0041e67328","isHidden":false,"type":"text"}]
 
 ----
 
@@ -42,7 +42,12 @@ Imgs: [{"content":{"location":"kirby","image":["file:\/\/jEDHr0SZxjNY5Rzy"],"src
 
 ----
 
-Related: 
+Related:
+
+- page://YmK2RUwdYAICOyvd
+- page://cxS3aFwhVm6hwnc3
+- page://LNFfQqJ5YMhrZCWC
+- page://KBjKf2HklnR2eguL
 
 ----
 

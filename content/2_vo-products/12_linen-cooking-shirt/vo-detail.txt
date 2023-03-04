@@ -2,11 +2,11 @@ Title: LINEN COOKING SHIRT
 
 ----
 
-Cover: - file://5fpm9FmFJFkJaWw1
+Cover: - file://bkGw24Xg0Gm1WaQD
 
 ----
 
-Thumbnail: - file://5fpm9FmFJFkJaWw1
+Thumbnail: - file://bkGw24Xg0Gm1WaQD
 
 ----
 
@@ -26,7 +26,7 @@ Summary: <ol><li>Rear hook-and-eye fastening</li><li>Fits true to size</li><li>S
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>made in ny<\/p>"},"id":"5f3234e7-6fd7-484e-951e-183970ca3e09","isHidden":false,"type":"text"},{"content":{"text":"<p>this is a one-of-a-kind garment <\/p><p>size xL<\/p>"},"id":"878dfaf7-2e79-48d9-8688-cd47893b77e7","isHidden":false,"type":"text"},{"content":{"text":"<p>Dry clean only<\/p>"},"id":"4bcb7aa8-e987-4a74-af07-c789a5348596","isHidden":false,"type":"text"}]
 
 ----
 
@@ -38,11 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/SzR0W7kfQn9MkWJS"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2ddf3e66-d57a-427c-b5af-c213db23620e","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/YHHq84SuJPxMFe60"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fa244b53-e567-416c-bc6e-449279f87409","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/XB1L6bjyHBtWjzAj"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2ddf3e66-d57a-427c-b5af-c213db23620e","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/4dHJn6W8CDuCiXct"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fa244b53-e567-416c-bc6e-449279f87409","isHidden":false,"type":"image"}]
 
 ----
 
-Related: 
+Related:
+
+- page://KBjKf2HklnR2eguL
+- page://Y2xlbt53wr3sX3SU
+- page://cxS3aFwhVm6hwnc3
+- page://eVPzRgYdjN9KcJb4
 
 ----
 

@@ -18,9 +18,7 @@
         <?php endforeach ?>
 
     </div>
-    <div class="small-illo">
-        <?php snippet('vo-illustration') ?>
-        </div>
+
     <div class="history-content ">
     <?php foreach ($page->history()->toBlocks() as $block) : ?>
             <div class="history-block">
@@ -29,7 +27,9 @@
     
         <?php endforeach ?>
     </div>
-      
+        <div class="small-illo">
+        <?php snippet('vo-illustration') ?>
+        </div>
 
 </div>
 

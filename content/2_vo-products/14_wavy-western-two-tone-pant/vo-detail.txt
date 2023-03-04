@@ -1,0 +1,54 @@
+Title: WAVY WESTERN TWO TONE PANT
+
+----
+
+Cover: - file://vV7oMxer5X78MraP
+
+----
+
+Thumbnail: - file://vV7oMxer5X78MraP
+
+----
+
+Productid: wavy-western-two-tone-pant
+
+----
+
+Price: 450
+
+----
+
+Onesize: false
+
+----
+
+Summary: <ol><li>Rear hook-and-eye fastening</li><li>Fits true to size</li><li>Straight Hem</li><li>100% Cotton</li><li>Straight Hem</li><li>100% Cotton</li></ol>
+
+----
+
+Text: [{"content":{"text":"<p>MAde in iny<\/p>"},"id":"0b62b1f2-ba15-43c4-82b3-0a6f0d7e5551","isHidden":false,"type":"text"},{"content":{"text":"<p>this item is made-to-order<\/p>"},"id":"d6a0e725-bee2-4175-ba78-8b9a15cfcacc","isHidden":false,"type":"text"},{"content":{"text":"<p>PLease allow up to 2-3 weeks to ship<\/p>"},"id":"8f2618f5-7b9c-4630-a826-58b2d71f6319","isHidden":false,"type":"text"},{"content":{"text":"<p>dry clean only<\/p>"},"id":"d1246291-2406-4692-9f40-d9b894666d33","isHidden":false,"type":"text"}]
+
+----
+
+Tags: Bottoms
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/airHKDH8X3DEwaEn"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1fcb4889-6369-46c0-a850-4de4c0e5b1eb","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/eT0SWCYMAZ8ZQlUF"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"59208903-00b6-40a7-a590-ee2d54ab2769","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/LENiFuzUVKLlvabo","file:\/\/vV7oMxer5X78MraP"],"caption":"","ratio":"","crop":"false"},"id":"d2582cde-308f-4917-9ba5-d4db46d54fb3","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/E5OhSOfVVDwnhHs4"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"967ef99f-43dc-4889-95a1-eb406aba7338","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/MHqu9uDCYDgHRW0v","file:\/\/DcWBuA4Pn6cNpbrP"],"caption":"","ratio":"","crop":"false"},"id":"c6563181-75b4-4558-91f4-d2750606e661","isHidden":false,"type":"gallery"}]
+
+----
+
+Related:
+
+- page://YmK2RUwdYAICOyvd
+- page://t9i91IFS4GkprS26
+- page://SFAOGH89BnzJPaIs
+- page://M7i8xyc7F8UUI6pa
+
+----
+
+Uuid: UHW4lpHfBHdgGSfg

@@ -1,0 +1,65 @@
+Title: EXPOSED SEAM RIBBED SWEATER
+
+----
+
+Cover: - file://gcTy91HmwRxP2yBx
+
+----
+
+Thumbnail: - file://cOlVbbrOTa0ZXskx
+
+----
+
+Productid: exposed-seam-ribbed-sweater
+
+----
+
+Price: 300
+
+----
+
+Onesize: false
+
+----
+
+Summary: <ol><li>Long sleeve&nbsp;</li><li>Cotton blend&nbsp;</li><li>RIbbed Knit&nbsp;</li><li>Wide neck&nbsp;</li><li>Fits true to size</li></ol>
+
+----
+
+Text: [{"content":{"text":"<p>MAde in ny.<\/p>"},"id":"c74c22ff-1b77-4ccb-96e3-c6466b4ef4c4","isHidden":false,"type":"text"},{"content":{"text":"<p>this item is MAde-to-order<\/p><p>model is wearing a size L.<\/p>"},"id":"90222b0c-fcee-493d-bba0-eb3d55e5bf75","isHidden":false,"type":"text"},{"content":{"text":"<p>Please aloow up to 2-3 weeks to ship.<\/p>"},"id":"a98d379a-0871-4b45-9245-052fade655d0","isHidden":false,"type":"text"}]
+
+----
+
+Tags: Tops
+
+----
+
+Videotoggle: false
+
+----
+
+Imgs: [{"content":{"images":["file:\/\/Go9jRU8S1XJ9zwu7","file:\/\/7VX5OM2lBdskBaRz"],"caption":"","ratio":"","crop":"false"},"id":"5cd58844-f2ce-4a8c-a8c2-35dac34e89d8","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/JrOcQPePBVoVCjWG"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"c679cc7e-5e28-46b8-95eb-7e5c1e575b81","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/8CYP6csEIXGXCNSa"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"97cc7300-ca34-424e-9b24-53f8117621ab","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/pid1SaDsOQiF3GQ1"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fe596785-47c9-49c3-b3c6-ce6cb6186830","isHidden":false,"type":"image"}]
+
+----
+
+Related:
+
+- page://PcBUllfzc9bCX2nN
+- page://MEGaSmdFaybsMTLr
+- page://D83jBe5RTpKFjOlj
+
+----
+
+Headline: EXPOSED SEAM RIBBED SWEATER
+
+----
+
+Main: 
+
+----
+
+Categories: Tops
+
+----
+
+Uuid: p2dMJ9b90PL2dj5C

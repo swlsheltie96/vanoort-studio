@@ -11,7 +11,7 @@
               <p>delete</p>
             </button>
           </form>
-  
+
 
   <?php foreach ($cart as $item) : ?>
     <div class="cart-item">

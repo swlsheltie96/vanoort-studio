@@ -14,7 +14,7 @@ Productid: british-linen-button-down
 
 ----
 
-Price: 235
+Price: 400
 
 ----
 
@@ -22,11 +22,11 @@ Onesize: false
 
 ----
 
-Summary: <ol><li>100% Linen</li><li>Screen printed graphics</li><li>All Imperfection are unique to original fabric&nbsp;</li><li>Slightly Oversized fit&nbsp;</li><li>Long sleeved&nbsp;</li></ol>
+Summary: <ol><li>100% Linen</li><li>Screen printed graphics</li><li>All Imperfection are unique to original fabric&nbsp;</li><li>front button fastening</li><li>Slightly Oversized fit&nbsp;</li><li>straight hem</li></ol>
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>MAde in ny<\/p>"},"id":"36abadb0-b79c-4f93-9fca-2bf57faf86a9","isHidden":false,"type":"text"},{"content":{"text":"<p>this one-of-kind piece made from vintage and custom printed wall calendars. <\/p>"},"id":"b7516a52-6efd-484b-b847-a647e1ff9ab5","isHidden":false,"type":"text"},{"content":{"text":"<p>model is 6\" and is wearing a size XL<\/p>"},"id":"bb3df9d7-43b7-4de9-b9c1-cf5ca3d713ad","isHidden":false,"type":"text"},{"content":{"text":"<p>Dry clean only <\/p>"},"id":"f8839928-abeb-4712-84ae-9c1156a0a7a4","isHidden":false,"type":"text"}]
 
 ----
 
@@ -38,11 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/fdApHlyRIMFUyeoi"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a4527c25-fb4d-4bcd-bdca-98ca2af0e28f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/O2UQ2KsoZWtV5O85"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"39e78878-b165-4919-a552-b4f8e7e7103c","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/EENJZdAtfSHYsTB6","file:\/\/CaqseqC1rQIb2Wlz"],"caption":"","ratio":"","crop":"false"},"id":"3e988ed6-3858-4708-bb84-0dd2cd6de6ac","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/yje54PvbFBYbPfh9"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"94e85213-8c45-4663-9cfa-6c81c78e4bdf","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/fdApHlyRIMFUyeoi"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a4527c25-fb4d-4bcd-bdca-98ca2af0e28f","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/CaqseqC1rQIb2Wlz","file:\/\/OsyhY3dx7sSRK6do"],"caption":"","ratio":"","crop":"false"},"id":"3e988ed6-3858-4708-bb84-0dd2cd6de6ac","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/O2UQ2KsoZWtV5O85"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"39e78878-b165-4919-a552-b4f8e7e7103c","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/yje54PvbFBYbPfh9"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"94e85213-8c45-4663-9cfa-6c81c78e4bdf","isHidden":false,"type":"image"}]
 
 ----
 
-Related: 
+Related:
+
+- page://aut4Vb4KnyRzpMxO
+- page://Y2xlbt53wr3sX3SU
+- page://M7i8xyc7F8UUI6pa
+- page://SVDz3SRrHrtNKU5g
 
 ----
 

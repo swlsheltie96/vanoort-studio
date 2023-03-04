@@ -2,11 +2,11 @@ Title: SILK SATIN TROUSER
 
 ----
 
-Cover: - file://3uJCvDaJVQRHE6R5
+Cover: - file://C2n8tpnIWECV5va1
 
 ----
 
-Thumbnail: - file://Ggh8DCNyHhMMnzQ0
+Thumbnail: - file://OQwYz46KKYxmnIEw
 
 ----
 
@@ -14,7 +14,7 @@ Productid: 125
 
 ----
 
-Price: 200
+Price: 450
 
 ----
 
@@ -22,11 +22,11 @@ Onesize: false
 
 ----
 
-Summary: <ol><li>Silk Satin / Cotton mix</li><li>Gathered elastic waistband&nbsp;</li><li>2-pocket</li><li>White silk cording</li><li>Silk Satin / Cotton mix</li><li>Gathered elastic waistband&nbsp;</li><li>2-pocket</li><li>White silk cording</li></ol>
+Summary: <ol><li>Silk Satin / Cotton mix</li><li>Gathered elastic waistband&nbsp;</li><li>2-pocket</li><li>White silk cording</li><li>wide cut </li></ol>
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>Made in ny <\/p>"},"id":"cf41deea-a598-4be1-a545-d59a4bfb13ce","isHidden":false,"type":"text"},{"content":{"text":"<p>this item is made-to-order<\/p>"},"id":"6d9bcb1d-5829-4fa1-a2e8-d50e99ddb59d","isHidden":false,"type":"text"},{"content":{"text":"<p>Please allow 2-3 weeks for shipping<\/p>"},"id":"98ffd9f9-151a-4132-ada4-559102b21f9a","isHidden":false,"type":"text"}]
 
 ----
 
@@ -38,11 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/k0IEbnHfh01loksB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"32e78c56-2923-4c17-b822-460358bdb2f4","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/GgjXuwPSV5ukOjBV"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"0af5f1db-90b6-4cb6-9184-3d3a5dbe3b99","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/vEmX7imQgz7OiBch"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"6bbb9dcd-bb4c-41b3-9272-0928c4df36db","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/M9nwZ6iWWmb0vxd0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"32e78c56-2923-4c17-b822-460358bdb2f4","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/yknxrNImmoiuSLXd"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"6bbb9dcd-bb4c-41b3-9272-0928c4df36db","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/OQwYz46KKYxmnIEw","file:\/\/dtXPQPdY0cRWCkIY"],"caption":"","ratio":"","crop":"false"},"id":"5054efd6-a5e0-453b-bef3-3a56c5dca0b5","isHidden":false,"type":"gallery"},{"content":{"location":"kirby","image":["file:\/\/wN0weLx97o5FmcTt"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"48057588-1931-4101-b09f-b2b0f65218c2","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/C2n8tpnIWECV5va1","file:\/\/GH9PW5NpmuEoc8KS"],"caption":"","ratio":"","crop":"false"},"id":"08b6342f-908b-40dd-add8-191f9a0f0e3f","isHidden":false,"type":"gallery"}]
 
 ----
 
-Related: 
+Related:
+
+- page://SVDz3SRrHrtNKU5g
+- page://MEGaSmdFaybsMTLr
+- page://D83jBe5RTpKFjOlj
+- page://Kj2oWGZK1vg6BZwa
 
 ----
 

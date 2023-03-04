@@ -2,19 +2,19 @@ Title: FIRE FLAME SILK SCARF
 
 ----
 
-Cover: - file://IReIWZZtJp44dHW4
+Cover: - file://RRU9y55utu1zxItf
 
 ----
 
-Thumbnail: - file://9IZDvgc6eaydU0np
+Thumbnail: - file://RRU9y55utu1zxItf
 
 ----
 
-Productid: 150
+Productid: 175
 
 ----
 
-Price: 125
+Price: 175
 
 ----
 
@@ -22,11 +22,11 @@ Onesize: true
 
 ----
 
-Summary: <ol><li>Rear hook-and-eye fastening</li><li>Fits true to size</li><li>Straight Hem</li><li>100% Cotton</li></ol>
+Summary: <ol><li>1 sided silk flame print </li><li>hand hemmed</li><li>18x18</li><li>100% silk</li></ol>
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>Designed in Ny<\/p>"},"id":"d1c0e778-f249-4ebb-974f-c162f5e03d20","isHidden":false,"type":"text"},{"content":{"text":"<p>Dry clean only <\/p>"},"id":"209ae1b9-975e-4be1-b7be-12d2f59044a5","isHidden":false,"type":"text"}]
 
 ----
 
@@ -38,11 +38,16 @@ Videotoggle: false
 
 ----
 
-Imgs: [{"content":{"location":"kirby","image":["file:\/\/Z3sTh9wu2X5QjdM1"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4c6341cc-6ba8-4024-89b6-a5faf958f007","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/dLFkSUWpwfJMxu2J"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a72d1e5e-d579-4457-881b-a0449f925fbc","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":[],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1bdeedab-a58b-44b0-9919-d8701ba454aa","isHidden":false,"type":"image"}]
+Imgs: [{"content":{"location":"kirby","image":["file:\/\/wtc7ukc9aLWSmxye"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"4c6341cc-6ba8-4024-89b6-a5faf958f007","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file:\/\/I5JCkOagbwMlq3Nt"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a72d1e5e-d579-4457-881b-a0449f925fbc","isHidden":false,"type":"image"},{"content":{"images":["file:\/\/vo4ty63gi9FEqWVE","file:\/\/aHZjjacyH4x7Wtyh"],"caption":"","ratio":"","crop":"false"},"id":"2d29a26e-aa79-47e5-98b6-c9a33b57a48c","isHidden":false,"type":"gallery"}]
 
 ----
 
-Related: 
+Related:
+
+- page://MEGaSmdFaybsMTLr
+- page://YmK2RUwdYAICOyvd
+- page://eVPzRgYdjN9KcJb4
+- page://M7i8xyc7F8UUI6pa
 
 ----
 
