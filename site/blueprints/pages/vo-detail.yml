@@ -46,6 +46,9 @@ columns:
       onesize:
         label: One Size
         type: toggle
+      soldout:
+        label: Sold Out
+        type: toggle
       summary:
         label: Menu Summary
         type: list

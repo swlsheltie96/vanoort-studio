@@ -2,7 +2,14 @@ Title: Zine
 
 ----
 
-Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":[],"caption":"","ratio":"","crop":"false"},"id":"313aeafe-bf10-48b7-ba8e-c015e641fc3b","isHidden":false,"type":"gallery"}],"id":"6542dcb4-7b5d-4f5b-a41c-930a60b9eb65","width":"1\/1"}],"id":"a20f9ce0-8c29-48d9-af09-7dc10573f87f"}]
+Zine:
+
+- file://Hs2Q7fi0qJg9l5iZ
+- file://xdgky535uBuy6HQK
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file:\/\/sVwDIidDmY1FNc5j"],"caption":"","ratio":"","crop":"false"},"id":"313aeafe-bf10-48b7-ba8e-c015e641fc3b","isHidden":false,"type":"gallery"}],"id":"6542dcb4-7b5d-4f5b-a41c-930a60b9eb65","width":"1\/1"}],"id":"a20f9ce0-8c29-48d9-af09-7dc10573f87f"},{"attrs":[],"columns":[{"blocks":[],"id":"6d3f02a7-bce8-42ee-9d29-5984ad5178f9","width":"1\/1"}],"id":"7d0ef498-0846-4119-af31-de249131788b"}]
 
 ----
 

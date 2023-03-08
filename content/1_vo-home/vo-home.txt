@@ -44,6 +44,14 @@ Cart: - file://YDbf8dTApgWXFCD0
 
 ----
 
+Favicon: - file://IkUEQ9jf2NBbk0rw
+
+----
+
+Soldout: - file://eZTZnAz7CxYUt9eJ
+
+----
+
 Illustrations:
 
 - file://r8xb3nDvd765uJqP

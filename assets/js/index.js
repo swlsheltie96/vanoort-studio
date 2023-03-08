@@ -1,4 +1,23 @@
-var positionOnOpen = 0
+
+
+var lastKnownScrollPosition = 0;
+var ticking = false;
+var positionOnOpen = 0;
+
+document.addEventListener("scroll", (event) => {
+  lastKnownScrollPosition =
+    window.scrollY ||
+    window.scrollTop ||
+    document.getElementsByTagName("html")[0].scrollTop;
+
+  if (!ticking) {
+    window.requestAnimationFrame(() => {
+      getScroll(lastKnownScrollPosition);
+      ticking = false;
+    });
+    ticking = true;
+  }
+});
 
 window.addEventListener("load", (event) => {
   console.log("index load")
@@ -66,7 +85,7 @@ function handleHam(e, ham) {
     document.body.style.position = '';
     window.scrollTo(0, positionOnOpen);
     mobilemenu.classList.toggle("active")
-    mobilemenu.style.transform = `translateY(calc(-${window.innerHeight}px + 4rem))`
+    mobilemenu.style.transform = `translateY(calc(-94vh + 2rem))`
     ham.textContent = "+"
   } else {
     positionOnOpen = lastKnownScrollPosition

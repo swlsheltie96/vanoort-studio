@@ -157,6 +157,10 @@
   }
 }
 
+.sold-out-sign {
+  margin-bottom: 1rem;
+}
+
 .cover {
   position: absolute;
   top: 80vh;

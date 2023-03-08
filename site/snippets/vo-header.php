@@ -1,16 +1,4 @@
-<?php
-/*
-  Snippets are a great way to store code snippets for reuse
-  or to keep your templates clean.
-
-  This header snippet is reused in all templates.
-  It fetches information from the `site.txt` content file
-  and contains the site navigation.
-
-  More about snippets:
-  https://getkirby.com/docs/guide/templates/snippets
-*/
-?>
+<?php $favicon = page('vo-home')->favicon()->toFile()->url() ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,15 +33,7 @@
   ]) ?>
 <?= css($page->files()->filterBy('extension', 'css')->pluck('url')) ?>
 
-
-  <?php
-  /*
-    The `url()` helper is a great way to create reliable
-    absolute URLs in Kirby that always start with the
-    base URL of your site.
-  */
-  ?>
-  <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
+  <link rel="shortcut icon" type="image/x-icon" href="<?= $favicon?>">
 </head>
 <body>
 

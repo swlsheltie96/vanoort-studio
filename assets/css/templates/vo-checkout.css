@@ -8,6 +8,15 @@
   left: 100px;
   bottom: 20px;
 }
+@media (max-width: 800px) {
+  .illustration {
+    width: 70%;
+    margin: auto;
+    left: 15%;
+    bottom: 1rem;
+    grid-column: 2/4;
+  }
+}
 
 .checkout {
   padding: 1rem;
@@ -18,6 +27,11 @@
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
   min-height: calc(var(--beneath-masthead) + 1px);
   grid-auto-rows: minmax(min-content, max-content);
+}
+@media (max-width: 800px) {
+  .checkout {
+    margin-top: 3rem;
+  }
 }
 
 .checkout-form {

@@ -4,25 +4,25 @@
   </div>
 
 
-
+<!-- 
   <form action="<?= url('delete') ?>" method="post"> 
          
           <button>
               <p>delete</p>
             </button>
-          </form>
+          </form> -->
 
 
   <?php foreach ($cart as $item) : ?>
     <div class="cart-item">
       <div class="item image">
-        <?php $image = page('vo-products/' . $item['uid'])->images()->filterBy('filename', '^=', 'thumbnail') ?>
+        <?php $image = page('vo-products/' . $item['uid'])->thumbnail()->toFile()->url() ?>
         <img src=" <?= $image ?> ">
 
       </div>
       <div class="item-info">
         <div class="item title">
-          <div class="item-title"> <?= $item['key'] ?>
+          <div class="item-title"> <?= $item['title'] ?>
           </div>
           <div class="item-price"> <?= formatPrice($item['price']) ?>
           </div>

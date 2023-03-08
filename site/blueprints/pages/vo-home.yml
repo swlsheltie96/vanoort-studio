@@ -57,6 +57,20 @@ columns:
                 multiple: false
                 image: 
                   back: white
+              favicon: 
+                label: Favicon
+                type: files
+                query: page.files.filterBy('filename', '^=', 'favicon')
+                width: 1/2
+                multiple: false
+              soldout: 
+                label: Sold Out Image
+                type: files
+                query: page.files.filterBy('filename', '^=', 'soldout')
+                width: 1/2
+                multiple: false
+                image: 
+                  back: white
               illustrations: 
                 label: Illustrations
                 type: files

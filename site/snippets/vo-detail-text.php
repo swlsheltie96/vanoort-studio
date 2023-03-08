@@ -1,5 +1,6 @@
 
 <div class="detail-text">
+<?php if (!$page->soldout()->toBool()) :?> 
     <form action="<?= url('add') ?>" method="post">
         <button class="add-to-cart">add to cart</button>
         <?php if (!$page->onesize()->toBool()) :?> 
@@ -40,8 +41,12 @@
           
        
         </div>
+           
+            <?php else: ?>
+                <input type="hidden" name="size" class="size" value="OS">
+                   
+                </input>
             <?php endif?>
-       
         <div class="product-hed">
         <h3><?= $page->title() ?></h3>
         <h4> <?= $page->price()->toFloat() ?> </h4>
@@ -55,6 +60,17 @@
         <input type="number" name="quantity" value="1" min="1">
 
     </form>
+    <?php else: ?>
+        <div class="sold-out-sign">
+       <?= page('vo-home')->soldout()->toFile() ?>
+       </div>
+       <div class="product-hed">
+      
+        <h3><?= $page->title() ?></h3>
+        <h4> <?= $page->price()->toFloat() ?> </h4>
+        </div>
+<?php endif ?>
+
     
     <?= $page->summary()->toBlocks() ?>
         <?= $page->text()->toBlocks() ?>

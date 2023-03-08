@@ -1,8 +1,10 @@
 
 <?php snippet('vo-header') ?>
 <div class="zine">
-    <?php snippet('z_archive/layouts', ['field' => $page->layout()])  ?>
-
+<div class="zine-pages grid">
+    <?php foreach (page('vo-zine')->zine()->toFiles() as $img) : ?>
+        <img class="zine-image" src="<?= $img->url() ?>"></img>
+    <?php endforeach ?>
 </div>
 
 <?php snippet('vo-footer') ?>

@@ -30,7 +30,7 @@
       <label>
         <p>Address 2</p>
       </label>
-      <input type="text" autocomplete="address" name="address2" required>
+      <input type="text" autocomplete="address" name="address2">
     </div>
     <div class="forminput state">
       <label>

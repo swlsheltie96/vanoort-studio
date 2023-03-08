@@ -18,7 +18,11 @@ Price: 400
 
 ----
 
-Onesize: false
+Onesize: true
+
+----
+
+Soldout: true
 
 ----
 

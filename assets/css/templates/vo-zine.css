@@ -6,7 +6,8 @@ body {
   display: none;
 }
 
-.masthead-container p, .masthead-container .back {
+.masthead-container p,
+.masthead-container .back {
   color: white;
 }
 .masthead-container img {
@@ -34,17 +35,9 @@ body {
   }
 }
 
-.column {
+.zine-image {
   grid-column: 1/13;
-}
-
-ul, li {
-  list-style: none;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=vo-zine.css.map */

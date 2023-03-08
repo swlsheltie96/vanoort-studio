@@ -1,23 +1,5 @@
 console.log("vo-home");
 
-var lastKnownScrollPosition = 0;
-var ticking = false;
-
-document.addEventListener("scroll", (event) => {
-  lastKnownScrollPosition =
-    window.scrollY ||
-    window.scrollTop ||
-    document.getElementsByTagName("html")[0].scrollTop;
-
-  if (!ticking) {
-    window.requestAnimationFrame(() => {
-      getScroll(lastKnownScrollPosition);
-      ticking = false;
-    });
-    ticking = true;
-  }
-});
-
 
 window.addEventListener("load", (event) => {
   //MASTHEAD
