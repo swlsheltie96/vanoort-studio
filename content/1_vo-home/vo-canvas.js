@@ -126,10 +126,12 @@ class jsCanvas {
     // console.log(canv)
     if (!ratio) {
       if (window.innerWidth<800) {
-        ratio = 2
+        ratio = 1.5
+      } else {
+        ratio = 1//this.pixel_ratio();
       }
-      ratio = 1//this.pixel_ratio();
       
+      console.log(ratio)
     }
     console.log("ratio:", ratio)
     // let can = canv;

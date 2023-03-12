@@ -1,9 +1,12 @@
 
 <?php
 // phpinfo();
-//echo page(option('ww.merx.ordersPage', 'orders'));
-//echo $page->id();
 ?>
+<div id="loading" >
+<div class="loader"></div>
+    <p>LOADING</p>
+   
+</div>
 <?php snippet('vo-header') ?>
 
 <div class="interactive-cover">

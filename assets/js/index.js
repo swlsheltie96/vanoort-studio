@@ -4,6 +4,20 @@ var lastKnownScrollPosition = 0;
 var ticking = false;
 var positionOnOpen = 0;
 
+document.onreadystatechange = function() {
+  if (document.readyState !== "complete") {
+      document.querySelector(
+        "body").style.visibility = "hidden";
+      document.querySelector(
+        "#loading").style.visibility = "visible";
+  } else {
+      document.querySelector(
+        "#loading").style.display = "none";
+      document.querySelector(
+        "body").style.visibility = "visible";
+  }
+};
+
 document.addEventListener("scroll", (event) => {
   lastKnownScrollPosition =
     window.scrollY ||
@@ -18,6 +32,7 @@ document.addEventListener("scroll", (event) => {
     ticking = true;
   }
 });
+console.log("new")
 
 window.addEventListener("load", (event) => {
   console.log("index load")
@@ -39,14 +54,19 @@ window.addEventListener("load", (event) => {
     mobileHamburger(ham)
     
   }
-
-
-
 });
 
-// window.addEventListener("scroll", (event) => { 
-  
-// })
+
+window.addEventListener("resize", (event) => { 
+  let mobilemenu = document.querySelector(".mobile.hamburgermenu")
+  mobilemenu.style.height = window.innerHeight +"px"
+  console.log("Resize")
+  // if (mobilemenu.classList.contains("active")){
+
+  // } else {
+  //   mobilemenu.style.height = window.innerHeight +"px"
+  // }
+})
 
 
 //OTHER FUNCTIONS    -------------------------------------------------------------------------------------//
@@ -85,6 +105,7 @@ function handleHam(e, ham) {
     document.body.style.position = '';
     window.scrollTo(0, positionOnOpen);
     mobilemenu.classList.toggle("active")
+    
     mobilemenu.style.transform = `translateY(calc(-94vh + 2rem))`
     ham.textContent = "+"
   } else {
